@@ -1,0 +1,1300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.capture("report_feature",{distinct_id:"5a979ccb-b47f-42e5-a55e-b1b8419f3d18",karate_version:"1.4.1",karate_meta:null});
+  }
+});
+</script>
+
+    <title>features.buscarPetActualizadoStatus</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-env">
+    <div></div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>
+  <div id="nav-date">
+    <div>2025-10-12 12:11:34 p. m.</div>
+  </div>
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:9]"><span>[1:9]</span> <span>API INTEGRATION TEST - Search pet to store by status</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">features/buscarPetActualizadoStatus.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Search Pet by Status</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:9]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:9]</span>
+                <span class="scenario-name">API INTEGRATION TEST - Search pet to store by status</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1502</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:9]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:9]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.3">
+      <div class="step-ref bg-step">3</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://petstore.swagger.io&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:9]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:9]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def result = callonce read(&#39;classpath:features/actualizarPetNameStatus.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">930</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5">12:11:34.278 &lt;&lt; lock released, cached callonce: read(&#39;classpath:features/actualizarPetNameStatus.feature&#39;)
+</div>   
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="0.5.0.call">
+        <div class="step-ref bg-step">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">features.actualizarPetNameStatus</div>
+      </div>
+      <div class="time-cell passed">910</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.3">
+      <div class="step-ref bg-step">3</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://petstore.swagger.io&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5.0.call.0.3">12:11:33.344 &gt;&gt; lock acquired, begin callonce: read(&#39;classpath:features/actualizarPetNameStatus.feature&#39;)
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.4">
+      <div class="step-ref bg-step">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.5">
+      <div class="step-ref bg-step">5</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def result = call read(&#39;classpath:features/crearPet.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">471</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row" data-parent="0.5.0.call">
+      <div class="step-container" id="0.5.0.call.0.5.0.call">
+        <div class="step-ref bg-step">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">features.crearPet</div>
+      </div>
+      <div class="time-cell passed">458</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call.0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.5.0.call.0.3">
+      <div class="step-ref bg-step">3</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://petstore.swagger.io&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call.0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.5.0.call.0.4">
+      <div class="step-ref bg-step">4</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call.0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.5.0.call.0.5">
+      <div class="step-ref bg-step">5</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def bodyS = read(&#39;classpath:datos/bodyAdd.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">7</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call.0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.5.0.call.0.6">
+      <div class="step-ref bg-step">6</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def pet_id = 1510202538</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call.0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.5.0.call.0.7">
+      <div class="step-ref bg-step">7</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set bodyS.id = pet_id</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call.0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.5.0.call.0.11">
+      <div class="step-ref bg-step">11</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/v2/pet&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call.0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.5.0.call.0.12">
+      <div class="step-ref bg-step">12</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request bodyS</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call.0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.5.0.call.0.13">
+      <div class="step-ref bg-step">13</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">439</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5.0.call.0.5.0.call.0.13">12:11:33.384 request:
+1 &gt; POST https://petstore.swagger.io/v2/pet
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 147
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.16)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;id&quot;:1510202538,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;}
+
+12:11:33.823 response time in milliseconds: 439
+1 &lt; 200
+1 &lt; Date: Sun, 12 Oct 2025 17:11:32 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 &lt; Server: Jetty(9.2.9.v20150224)
+{&quot;id&quot;:1510202538,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call.0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.5.0.call.0.14">
+      <div class="step-ref bg-step">14</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>match responseStatus == 200 || responseStatus != 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call.0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.5.0.call.0.15">
+      <div class="step-ref bg-step">15</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>eval</span>
+      </div>
+    </div>
+    <div class="time-cell passed">7</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.5.0.call.0.5.0.call.0.15">if (responseStatus == 200 || responseStatus != 200) {
+  karate.set({
+  &#39;globalPetID&#39;: response.id,
+  &#39;globalPetName&#39;: response.name,
+  &#39;globalPetStatus&#39;: response.status});
+  // Validación
+  if (response.id == pet_id) {
+    karate.log(&#39;ID correcto&#39;);
+  }
+  if (response.status.includes(&#39;available&#39;)) {
+    karate.log(&#39;Contains available&#39;);
+  }
+  if (typeof response.status === &#39;string&#39;) {
+    karate.log(&#39;Status es string&#39;);
+  }
+}</div>
+
+  
+
+  <div class="preformatted" data-parent="0.5.0.call.0.5.0.call.0.15">12:11:33.840 ID correcto 
+12:11:33.841 Contains available 
+12:11:33.842 Status es string 
+</div>   
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.6">
+      <div class="step-ref bg-step">6</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def prenombre = result.response.name</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.7">
+      <div class="step-ref bg-step">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def preestado = result.response.status</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.8">
+      <div class="step-ref bg-step">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def nombre = &#39;baltoMagico&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.9">
+      <div class="step-ref bg-step">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def estado = &#39;sold&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.10">
+      <div class="step-ref bg-step">10</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set result.response.name = nombre</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.11">
+      <div class="step-ref bg-step">11</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set result.response.status = estado</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.16">
+      <div class="step-ref bg-step">16</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;v2&#39;, &#39;pet&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.17">
+      <div class="step-ref bg-step">17</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.18">
+      <div class="step-ref bg-step">18</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request result.response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.19">
+      <div class="step-ref bg-step">19</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method put</span>
+      </div>
+    </div>
+    <div class="time-cell passed">431</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5.0.call.0.19">12:11:33.846 request:
+1 &gt; PUT https://petstore.swagger.io/v2/pet
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 147
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.16)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;id&quot;:1510202538,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;baltoMagico&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;sold&quot;}
+
+12:11:34.278 response time in milliseconds: 432
+1 &lt; 200
+1 &lt; Date: Sun, 12 Oct 2025 17:11:32 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 &lt; Server: Jetty(9.2.9.v20150224)
+{&quot;id&quot;:1510202538,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;baltoMagico&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;sold&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.20">
+      <div class="step-ref bg-step">20</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>eval</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.5.0.call.0.20">karate.log(responseStatus)
+if (responseStatus == 200 || responseStatus != 200){
+  if (prenombre != nombre &amp;&amp; response.name == nombre){
+    karate.log(&quot;Nuevo nombre de pet es: &quot;+response.name)
+  }
+  if (preestado != estado &amp;&amp; response.status == estado){
+    karate.log(&quot;Nuevo estado de pet es: &quot;+response.status)
+  }
+  karate.log(&quot;Actualizaciones de nombre y estado EXITOSO&quot;)
+}</div>
+
+  
+
+  <div class="preformatted" data-parent="0.5.0.call.0.20">12:11:34.278 200 
+12:11:34.278 Nuevo nombre de pet es: baltoMagico 
+12:11:34.278 Nuevo estado de pet es: sold 
+12:11:34.278 Actualizaciones de nombre y estado EXITOSO 
+</div>   
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div data-parent="[1:9]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def estado = result.response.status</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;v2&#39;, &#39;pet&#39;, &#39;findByStatus&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param status = estado</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">551</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.12">12:11:34.278 request:
+1 &gt; GET https://petstore.swagger.io/v2/pet/findByStatus?status=sold
+1 &gt; Content-Type: application/json
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.16)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+12:11:34.828 response time in milliseconds: 540
+1 &lt; 200
+1 &lt; Date: Sun, 12 Oct 2025 17:11:32 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 &lt; Server: Jetty(9.2.9.v20150224)
+[{&quot;id&quot;:9223372036854775496,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;Bobik&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:9223372036854775542,&quot;photoUrls&quot;:[],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:277,&quot;category&quot;:{&quot;id&quot;:2,&quot;name&quot;:&quot;daryaTest&quot;},&quot;name&quot;:&quot;Murphy&quot;,&quot;photoUrls&quot;:[&quot;https://images.squarespace-cdn.com/content/v1/54822a56e4b0b30bd821480c/45ed8ecf-0bb2-4e34-8fcf-624db47c43c8/Golden+Retrievers+dans+pet+care.jpeg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;daryaTagTest&quot;},{&quot;id&quot;:951,&quot;name&quot;:&quot;d.dombrovskaya&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:845,&quot;category&quot;:{&quot;id&quot;:2,&quot;name&quot;:&quot;daryaTest&quot;},&quot;name&quot;:&quot;Quigley&quot;,&quot;photoUrls&quot;:[&quot;https://images.squarespace-cdn.com/content/v1/54822a56e4b0b30bd821480c/45ed8ecf-0bb2-4e34-8fcf-624db47c43c8/Golden+Retrievers+dans+pet+care.jpeg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;daryaTagTest&quot;},{&quot;id&quot;:435,&quot;name&quot;:&quot;d.dombrovskaya&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:9223372036854775615,&quot;category&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;Dog&quot;},&quot;photoUrls&quot;:[],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:9223372036854775621,&quot;category&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;Dog&quot;},&quot;photoUrls&quot;:[],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:64028,&quot;name&quot;:&quot;Update_64028&quot;,&quot;photoUrls&quot;:[],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602531147863,&quot;category&quot;:{&quot;id&quot;:999,&quot;name&quot;:&quot;Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602531147863&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602533219786,&quot;category&quot;:{&quot;id&quot;:999,&quot;name&quot;:&quot;Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602533219786&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602536892114,&quot;category&quot;:{&quot;id&quot;:999,&quot;name&quot;:&quot;Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602536892114&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;,&quot;https://images.dog.ceo/breeds/retriever-golden/n02099601_3140.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;adopted&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:123123,&quot;category&quot;:{&quot;id&quot;:12,&quot;name&quot;:&quot;Doge&quot;},&quot;name&quot;:&quot;null&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;doge&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:555778,&quot;category&quot;:{&quot;id&quot;:4444,&quot;name&quot;:&quot;dogs&quot;},&quot;name&quot;:&quot;Pes&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:978815,&quot;category&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;cats&quot;},&quot;name&quot;:&quot;Chupa&quot;,&quot;photoUrls&quot;:[&quot;https://example.com/cat.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;cute&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602580499250,&quot;category&quot;:{&quot;id&quot;:999,&quot;name&quot;:&quot;Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602580499250&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:369716,&quot;category&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;cats&quot;},&quot;name&quot;:&quot;Chupa&quot;,&quot;photoUrls&quot;:[&quot;https://example.com/cat.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;cute&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602585910266,&quot;category&quot;:{&quot;id&quot;:999,&quot;name&quot;:&quot;Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602585910266&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602586070584,&quot;category&quot;:{&quot;id&quot;:999,&quot;name&quot;:&quot;Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602586070584&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602587231338,&quot;category&quot;:{&quot;id&quot;:999,&quot;name&quot;:&quot;Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602587231338&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:10000,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;Dog&quot;},&quot;name&quot;:&quot;PetX&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;sta&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602595706282,&quot;category&quot;:{&quot;id&quot;:999,&quot;name&quot;:&quot;Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602595706282&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:1062467158,&quot;category&quot;:{&quot;id&quot;:2141516090,&quot;name&quot;:&quot;continue&quot;},&quot;name&quot;:&quot;Alfredicus&quot;,&quot;photoUrls&quot;:[&quot;https://dummyimage.com/129x797&quot;],&quot;tags&quot;:[{&quot;id&quot;:435484223,&quot;name&quot;:&quot;remember&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:5815,&quot;category&quot;:{&quot;id&quot;:8073,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;string&quot;,&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:7006,&quot;name&quot;:&quot;string&quot;},{&quot;id&quot;:2444,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602596638490,&quot;category&quot;:{&quot;id&quot;:999,&quot;name&quot;:&quot;Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602596638490&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602603443576,&quot;category&quot;:{&quot;id&quot;:999,&quot;name&quot;:&quot;Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602603443576&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602604855987,&quot;category&quot;:{&quot;id&quot;:999,&quot;name&quot;:&quot;Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602604855987&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:1116534397,&quot;category&quot;:{&quot;id&quot;:1851739314,&quot;name&quot;:&quot;minute&quot;},&quot;name&quot;:&quot;Lopik&quot;,&quot;photoUrls&quot;:[&quot;https://placekitten.com/215/325&quot;],&quot;tags&quot;:[{&quot;id&quot;:1340454056,&quot;name&quot;:&quot;short&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:12,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;dogs&quot;},&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:1021896597,&quot;category&quot;:{&quot;id&quot;:1991685034,&quot;name&quot;:&quot;mouth&quot;},&quot;name&quot;:&quot;Lopik&quot;,&quot;photoUrls&quot;:[&quot;https://picsum.photos/98/618&quot;],&quot;tags&quot;:[{&quot;id&quot;:574886314,&quot;name&quot;:&quot;politics&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:931659412,&quot;category&quot;:{&quot;id&quot;:842458453,&quot;name&quot;:&quot;few&quot;},&quot;name&quot;:&quot;Lopik&quot;,&quot;photoUrls&quot;:[&quot;https://dummyimage.com/283x90&quot;],&quot;tags&quot;:[{&quot;id&quot;:618178823,&quot;name&quot;:&quot;response&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602614129135,&quot;category&quot;:{&quot;id&quot;:999,&quot;name&quot;:&quot;Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602614129135&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602615236635,&quot;category&quot;:{&quot;id&quot;:999,&quot;name&quot;:&quot;Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602615236635&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602615728034,&quot;category&quot;:{&quot;id&quot;:999,&quot;name&quot;:&quot;Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602615728034&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602621881688,&quot;category&quot;:{&quot;id&quot;:999,&quot;name&quot;:&quot;Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602621881688&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602623644362,&quot;category&quot;:{&quot;id&quot;:999,&quot;name&quot;:&quot;Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602623644362&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602626621035,&quot;category&quot;:{&quot;id&quot;:999,&quot;name&quot;:&quot;Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602626621035&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602626837774,&quot;category&quot;:{&quot;id&quot;:999,&quot;name&quot;:&quot;Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602626837774&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602627622404,&quot;category&quot;:{&quot;id&quot;:999,&quot;name&quot;:&quot;Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602627622404&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602629233781,&quot;category&quot;:{&quot;id&quot;:999,&quot;name&quot;:&quot;Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602629233781&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:13,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;cats&quot;},&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602630193293,&quot;category&quot;:{&quot;id&quot;:999,&quot;name&quot;:&quot;Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602630193293&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602631670498,&quot;category&quot;:{&quot;id&quot;:999,&quot;name&quot;:&quot;Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602631670498&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:9,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;cats&quot;},&quot;name&quot;:&quot;King Kong&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602634420357,&quot;category&quot;:{&quot;id&quot;:999,&quot;name&quot;:&quot;Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602634420357&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602652314366,&quot;category&quot;:{&quot;id&quot;:999,&quot;name&quot;:&quot;Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602652314366&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:11342,&quot;category&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;Dogs&quot;},&quot;name&quot;:&quot;FullPet&quot;,&quot;photoUrls&quot;:[&quot;https://example.com/pet.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;tag1&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602655190094,&quot;category&quot;:{&quot;id&quot;:999,&quot;name&quot;:&quot;Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602655190094&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602671138784,&quot;category&quot;:{&quot;id&quot;:999,&quot;name&quot;:&quot;Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602671138784&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:12084391,&quot;category&quot;:{&quot;id&quot;:-48583,&quot;name&quot;:&quot;cupidatat amet commodo&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;fugiat Ut eu&quot;,&quot;exercitation nostr&quot;],&quot;tags&quot;:[{&quot;id&quot;:-27183415,&quot;name&quot;:&quot;e&quot;},{&quot;id&quot;:86979382,&quot;name&quot;:&quot;in anim consectetur Lorem ut&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:74408294,&quot;category&quot;:{&quot;id&quot;:70278030,&quot;name&quot;:&quot;in adipisicing&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;nostrud sunt eu occaecat elit&quot;,&quot;esse aute non magna&quot;],&quot;tags&quot;:[{&quot;id&quot;:81618844,&quot;name&quot;:&quot;id aliquip&quot;},{&quot;id&quot;:-96817599,&quot;name&quot;:&quot;ut elit esse&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:6667,&quot;category&quot;:{&quot;id&quot;:1012,&quot;name&quot;:&quot;dogs&quot;},&quot;name&quot;:&quot;Johny Walker&quot;,&quot;photoUrls&quot;:[&quot;string1&quot;,&quot;string2&quot;],&quot;tags&quot;:[{&quot;id&quot;:103,&quot;name&quot;:&quot;discount 5%&quot;},{&quot;id&quot;:102,&quot;name&quot;:&quot;discount 15%&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:318200,&quot;category&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;cats&quot;},&quot;name&quot;:&quot;Chupa&quot;,&quot;photoUrls&quot;:[&quot;https://example.com/cat.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;cute&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:321509,&quot;category&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;cats&quot;},&quot;name&quot;:&quot;Chupa&quot;,&quot;photoUrls&quot;:[&quot;https://example.com/cat.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;cute&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:64718,&quot;name&quot;:&quot;Updated_Pet_101981&quot;,&quot;photoUrls&quot;:[&quot;https://example.com/pet_101981.jpg&quot;],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602741135152,&quot;category&quot;:{&quot;id&quot;:999,&quot;name&quot;:&quot;Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602741135152&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602742595726,&quot;category&quot;:{&quot;id&quot;:999,&quot;name&quot;:&quot;Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602742595726&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602742893362,&quot;category&quot;:{&quot;id&quot;:999,&quot;name&quot;:&quot;Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602742893362&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602751380907,&quot;category&quot;:{&quot;id&quot;:999,&quot;name&quot;:&quot;Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602751380907&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602757818278,&quot;category&quot;:{&quot;id&quot;:888,&quot;name&quot;:&quot;Updated Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602757818278&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;subject to sold&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602758570344,&quot;category&quot;:{&quot;id&quot;:888,&quot;name&quot;:&quot;Updated Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602758570344&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;subject to sold&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:295517,&quot;category&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;cats&quot;},&quot;name&quot;:&quot;Chupa&quot;,&quot;photoUrls&quot;:[&quot;https://example.com/cat.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;cute&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:299943,&quot;category&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;cats&quot;},&quot;name&quot;:&quot;Chupa&quot;,&quot;photoUrls&quot;:[&quot;https://example.com/cat.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;cute&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:545485437,&quot;category&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;updatedCategory&quot;},&quot;name&quot;:&quot;pet_8502_updated&quot;,&quot;photoUrls&quot;:[&quot;https://example.com/photo&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;tag_updated&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:715296366,&quot;category&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;updatedCategory&quot;},&quot;name&quot;:&quot;pet_8740_updated&quot;,&quot;photoUrls&quot;:[&quot;https://example.com/photo&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;tag_updated&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602765115565,&quot;category&quot;:{&quot;id&quot;:888,&quot;name&quot;:&quot;Updated Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602765115565&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;subject to sold&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602766159268,&quot;category&quot;:{&quot;id&quot;:888,&quot;name&quot;:&quot;Updated Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602766159268&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;subject to sold&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:159802686,&quot;category&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;updatedCategory&quot;},&quot;name&quot;:&quot;pet_4264_updated&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;updatedTag&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602769413424,&quot;category&quot;:{&quot;id&quot;:888,&quot;name&quot;:&quot;Updated Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602769413424&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;subject to sold&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602772507804,&quot;category&quot;:{&quot;id&quot;:888,&quot;name&quot;:&quot;Updated Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602772507804&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;subject to sold&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602774592393,&quot;category&quot;:{&quot;id&quot;:888,&quot;name&quot;:&quot;Updated Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602774592393&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;subject to sold&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602778089210,&quot;category&quot;:{&quot;id&quot;:888,&quot;name&quot;:&quot;Updated Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602778089210&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;subject to sold&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:1510202538,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;baltoMagico&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602789252686,&quot;category&quot;:{&quot;id&quot;:888,&quot;name&quot;:&quot;Updated Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602789252686&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;subject to sold&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602794217168,&quot;category&quot;:{&quot;id&quot;:888,&quot;name&quot;:&quot;Updated Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602794217168&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;subject to sold&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:1760279539418,&quot;category&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;Dogs&quot;},&quot;name&quot;:&quot;TestPet-32954&quot;,&quot;photoUrls&quot;:[&quot;http://example.com/photo&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;tag1&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602795710142,&quot;category&quot;:{&quot;id&quot;:888,&quot;name&quot;:&quot;Updated Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602795710142&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;subject to sold&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:281,&quot;category&quot;:{&quot;id&quot;:100,&quot;name&quot;:&quot;anna_test&quot;},&quot;name&quot;:&quot;turtle&quot;,&quot;photoUrls&quot;:[&quot;anna_test_url&quot;],&quot;tags&quot;:[{&quot;id&quot;:100,&quot;name&quot;:&quot;anna_tag&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:1760280052958,&quot;category&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;Dogs&quot;},&quot;name&quot;:&quot;TestPet-24712&quot;,&quot;photoUrls&quot;:[&quot;http://example.com/photo&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;tag1&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602809590678,&quot;category&quot;:{&quot;id&quot;:888,&quot;name&quot;:&quot;Updated Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602809590678&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;subject to sold&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602810545195,&quot;category&quot;:{&quot;id&quot;:888,&quot;name&quot;:&quot;Updated Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602810545195&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;subject to sold&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:1760281424559,&quot;category&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;Dogs&quot;},&quot;name&quot;:&quot;TestPet-23905&quot;,&quot;photoUrls&quot;:[&quot;http://example.com/photo&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;tag1&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602821170672,&quot;category&quot;:{&quot;id&quot;:888,&quot;name&quot;:&quot;Updated Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602821170672&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;subject to sold&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:9991234,&quot;name&quot;:&quot;Buster&quot;,&quot;photoUrls&quot;:[],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:202,&quot;name&quot;:&quot;UpdatedPet&quot;,&quot;photoUrls&quot;:[],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:1760283902478,&quot;category&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;Dogs&quot;},&quot;name&quot;:&quot;TestPet-76808&quot;,&quot;photoUrls&quot;:[&quot;http://example.com/photo&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;tag1&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:1760284023702,&quot;category&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;Dogs&quot;},&quot;name&quot;:&quot;TestPet-14199&quot;,&quot;photoUrls&quot;:[&quot;http://example.com/photo&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;tag1&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:502,&quot;category&quot;:{&quot;id&quot;:503,&quot;name&quot;:&quot;DogGIE3&quot;},&quot;name&quot;:&quot;DogGIE3&quot;,&quot;photoUrls&quot;:[&quot;https://www.diamondpet.com/wp-content/uploads/2023/07/brown-chihuahua-standing-in-grass-071723.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:4038,&quot;name&quot;:&quot;string&quot;},{&quot;id&quot;:5836,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602844603330,&quot;category&quot;:{&quot;id&quot;:888,&quot;name&quot;:&quot;Updated Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602844603330&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;subject to sold&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:1760284639048,&quot;category&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;Dogs&quot;},&quot;name&quot;:&quot;TestPet-73330&quot;,&quot;photoUrls&quot;:[&quot;http://example.com/photo&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;tag1&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:1760284806880,&quot;category&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;Dogs&quot;},&quot;name&quot;:&quot;TestPet-30471&quot;,&quot;photoUrls&quot;:[&quot;http://example.com/photo&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;tag1&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602848784207,&quot;category&quot;:{&quot;id&quot;:888,&quot;name&quot;:&quot;Updated Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602848784207&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;subject to sold&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602849094134,&quot;category&quot;:{&quot;id&quot;:888,&quot;name&quot;:&quot;Updated Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602849094134&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;subject to sold&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602852517155,&quot;category&quot;:{&quot;id&quot;:888,&quot;name&quot;:&quot;Updated Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602852517155&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;subject to sold&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602852765087,&quot;category&quot;:{&quot;id&quot;:888,&quot;name&quot;:&quot;Updated Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602852765087&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;subject to sold&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:1760285378655,&quot;category&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;Dogs&quot;},&quot;name&quot;:&quot;TestPet-56027&quot;,&quot;photoUrls&quot;:[&quot;http://example.com/photo&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;tag1&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602855417363,&quot;category&quot;:{&quot;id&quot;:888,&quot;name&quot;:&quot;Updated Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602855417363&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;subject to sold&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602857668344,&quot;category&quot;:{&quot;id&quot;:888,&quot;name&quot;:&quot;Updated Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602857668344&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;subject to sold&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602861000015,&quot;category&quot;:{&quot;id&quot;:888,&quot;name&quot;:&quot;Updated Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602861000015&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;subject to sold&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:123456792,&quot;name&quot;:&quot;MaxUpdated&quot;,&quot;photoUrls&quot;:[],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:119723834,&quot;category&quot;:{&quot;id&quot;:2,&quot;name&quot;:&quot;gato&quot;},&quot;name&quot;:&quot;Rick&quot;,&quot;photoUrls&quot;:[],&quot;tags&quot;:[{&quot;id&quot;:10,&quot;name&quot;:&quot;vacinado&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:1760286437000,&quot;category&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;Dogs&quot;},&quot;name&quot;:&quot;TestPet-43669&quot;,&quot;photoUrls&quot;:[&quot;http://example.com/photo&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;tag1&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:1760286522085,&quot;category&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;Dogs&quot;},&quot;name&quot;:&quot;TestPet-62628&quot;,&quot;photoUrls&quot;:[&quot;http://example.com/photo&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;tag1&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:1760286716934,&quot;category&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;Dogs&quot;},&quot;name&quot;:&quot;TestPet-46579&quot;,&quot;photoUrls&quot;:[&quot;http://example.com/photo&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;tag1&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:824034925,&quot;category&quot;:{&quot;id&quot;:111,&quot;name&quot;:&quot;dogs&quot;},&quot;name&quot;:&quot;pet_i1pl91_upd&quot;,&quot;photoUrls&quot;:[&quot;https://example.com/photo1.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;qa&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:1760286793236,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;doggie909011&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:51630937,&quot;category&quot;:{&quot;id&quot;:659,&quot;name&quot;:&quot;dogs&quot;},&quot;name&quot;:&quot;pet_ne5sdz_upd&quot;,&quot;photoUrls&quot;:[&quot;https://example.com/photo1.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;qa&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:152216895,&quot;category&quot;:{&quot;id&quot;:945,&quot;name&quot;:&quot;dogs&quot;},&quot;name&quot;:&quot;pet_gm65j6_upd&quot;,&quot;photoUrls&quot;:[&quot;https://example.com/photo1.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;qa&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602872029204,&quot;category&quot;:{&quot;id&quot;:888,&quot;name&quot;:&quot;Updated Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602872029204&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;subject to sold&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:1760287241432,&quot;name&quot;:&quot;SoldPet&quot;,&quot;photoUrls&quot;:[],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602876493956,&quot;category&quot;:{&quot;id&quot;:888,&quot;name&quot;:&quot;Updated Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602876493956&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;subject to sold&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602880479222,&quot;category&quot;:{&quot;id&quot;:888,&quot;name&quot;:&quot;Updated Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602880479222&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;subject to sold&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:2001,&quot;category&quot;:{&quot;id&quot;:3,&quot;name&quot;:&quot;Birds&quot;},&quot;name&quot;:&quot;Tweety&quot;,&quot;photoUrls&quot;:[],&quot;tags&quot;:[{&quot;id&quot;:203,&quot;name&quot;:&quot;cheerful&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602880720201,&quot;category&quot;:{&quot;id&quot;:888,&quot;name&quot;:&quot;Updated Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602880720201&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;subject to sold&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:1760288213090,&quot;category&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;Dogs&quot;},&quot;name&quot;:&quot;TestPet-64847&quot;,&quot;photoUrls&quot;:[&quot;http://example.com/photo&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;tag1&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17602885253592,&quot;category&quot;:{&quot;id&quot;:888,&quot;name&quot;:&quot;Updated Test Dog&quot;},&quot;name&quot;:&quot;Dog_17602885253592&quot;,&quot;photoUrls&quot;:[&quot;https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;puppy&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;vaccinated&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;subject to sold&quot;}],&quot;status&quot;:&quot;sold&quot;}]
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print &#39;resultado: &#39;, result.response.status</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.14">12:11:34.831 [print] resultado:  sold 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print &#39;Conjuntojson&#39;, karate.filter(response, x =&gt; x.id == result.response.id)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">9</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.15">12:11:34.847 [print] Conjuntojson [
+  {
+    &quot;id&quot;: 1510202538,
+    &quot;category&quot;: {
+      &quot;id&quot;: 0,
+      &quot;name&quot;: &quot;string&quot;
+    },
+    &quot;name&quot;: &quot;baltoMagico&quot;,
+    &quot;photoUrls&quot;: [
+      &quot;string&quot;
+    ],
+    &quot;tags&quot;: [
+      {
+        &quot;id&quot;: 0,
+        &quot;name&quot;: &quot;string&quot;
+      }
+    ],
+    &quot;status&quot;: &quot;sold&quot;
+  }
+]
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def busquedafiltrada = karate.filter(response, x =&gt; x.id == result.response.id)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>eval</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.17">if (busquedafiltrada.length &gt; 0){
+  karate.match(&#39;result.response contains _&#39;, busquedafiltrada[0])
+}else{
+  var busqueda = karate.filter(response, x =&gt; x.status == estado);
+  if (busqueda.length &gt; 0 ){
+    karate.match(&#39;result.response contains _&#39;, busqueda[0])
+  }else{
+     karate.log(&#39;Existe elementos&#39;);
+  }
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.30">
+      <div class="step-ref passed">30</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print &#39;SEARCH FUNCTIONALITY VERIFIED SUCCESSFULLY&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.30">12:11:34.854 [print] SEARCH FUNCTIONALITY VERIFIED SUCCESSFULLY 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
