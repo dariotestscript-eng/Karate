@@ -42,7 +42,7 @@ El resultado del anterior comando utilizarlo con cd para cambiar a la carpeta pr
 ### 🔹 Clonar el repositorio
 Previamente presiona Win + R, escribe cmd y da Enter → abre Command Prompt (CMD)
 ```bash
-git clone https://github.com/dariotestscript-eng/Karate
+git clone https://github.com/dariotestscript-eng/Karate.git
 cd proyectoKarate
 ```
 
@@ -179,5 +179,5 @@ proyectoKarate/
 ### 👤 Autor
 **Nombre:** *Darío Javier Sotalín Pillajo*  
 **Rol:** Analista QA 
-**Repositorio GitHub:** [https://github.com/dariotestscript-eng/Karate] 
+**Repositorio GitHub:** [https://github.com/dariotestscript-eng/Karate.git] 
 
