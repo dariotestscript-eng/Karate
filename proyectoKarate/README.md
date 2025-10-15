@@ -46,6 +46,14 @@ git clone https://github.com/dariotestscript-eng/Karate.git
 cd proyectoKarate
 ```
 
+Alternativa,
+
+```bash
+git clone https://github.com/dariotestscript-eng/Karate.git
+cd Karate
+cd proyectoKarate
+```
+
 ---
 
 
