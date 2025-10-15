@@ -1,0 +1,3555 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.capture("report_feature",{distinct_id:"5a979ccb-b47f-42e5-a55e-b1b8419f3d18",karate_version:"1.4.1",karate_meta:null});
+  }
+});
+</script>
+
+    <title>features.principal</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">3</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-env">
+    <div></div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>
+  <div id="nav-date">
+    <div>2025-10-15 03:56:23 a. m.</div>
+  </div>
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1.1:22]"><span>[1.1:22]</span> <span>CRUD complete of pet</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[1.2:23]"><span>[1.2:23]</span> <span>CRUD complete of pet</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[1.3:24]"><span>[1.3:24]</span> <span>CRUD complete of pet</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">features/principal.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Flow complete of store PET</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.1:22]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">principal</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.1:22]</span>
+                <span class="scenario-name">CRUD complete of pet</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>3554</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.1:22]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.1:22]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def baseUrl = &#39;https://petstore.swagger.io/v2&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Create Pet</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="1.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def crear = call read(&#39;classpath:features/crearPet.feature&#39;) { id: 1510202538, name: &#39;Balto&#39;, status: &#39;available&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1740</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="1.9.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">features.crearPet</div>
+      </div>
+      <div class="time-cell passed">1652</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.9.0.call">
+    <div class="step-container" id="1.9.0.call.0.5">
+      <div class="step-ref passed">5</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.9.0.call">
+    <div class="step-container" id="1.9.0.call.0.6">
+      <div class="step-ref passed">6</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def bodyS = read(&#39;classpath:datos/bodyAdd.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">11</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.9.0.call">
+    <div class="step-container" id="1.9.0.call.0.7">
+      <div class="step-ref passed">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set bodyS.id = id</span>
+      </div>
+    </div>
+    <div class="time-cell passed">5</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.9.0.call">
+    <div class="step-container" id="1.9.0.call.0.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set bodyS.name = name</span>
+      </div>
+    </div>
+    <div class="time-cell passed">7</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.9.0.call">
+    <div class="step-container" id="1.9.0.call.0.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set bodyS.status = status</span>
+      </div>
+    </div>
+    <div class="time-cell passed">9</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.9.0.call">
+    <div class="step-container" id="1.9.0.call.0.13">
+      <div class="step-ref passed">13</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url baseUrl + &#39;/pet&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">18</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.9.0.call">
+    <div class="step-container" id="1.9.0.call.0.14">
+      <div class="step-ref passed">14</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request bodyS</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.9.0.call">
+    <div class="step-container" id="1.9.0.call.0.15">
+      <div class="step-ref passed">15</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1549</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.9.0.call.0.15">03:56:16.654 request:
+1 &gt; POST https://petstore.swagger.io/v2/pet
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 146
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.16)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;id&quot;:1510202538,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;Balto&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;}
+
+03:56:17.669 response time in milliseconds: 1005
+1 &lt; 200
+1 &lt; Date: Wed, 15 Oct 2025 08:56:20 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 &lt; Server: Jetty(9.2.9.v20150224)
+{&quot;id&quot;:1510202538,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;Balto&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.9.0.call">
+    <div class="step-container" id="1.9.0.call.0.16">
+      <div class="step-ref passed">16</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>eval</span>
+      </div>
+    </div>
+    <div class="time-cell passed">52</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="1.9.0.call.0.16">if (responseStatus == 200) {
+  // Validación
+  if (response.id == id) {
+    karate.log(&#39;ID correcto&#39;);
+  }else{
+    karate.log(&quot;ID incorrecto&quot;)
+  }
+  if (typeof response.status === &#39;string&#39;) {
+    karate.log(&#39;Status es String&#39;);
+  }else{
+    karate.log(&quot;Status no es String&quot;)
+  }
+  if (typeof response.id === &#39;number&#39;) {
+    karate.log(&#39;ID es númerico&#39;);
+  }else{
+    karate.log(&quot;ID incorrecto&quot;)
+  }
+}else{
+  karate.log(&#39;API es inestable&#39;)
+}</div>
+
+  
+
+  <div class="preformatted" data-parent="1.9.0.call.0.16">03:56:17.722 ID correcto 
+03:56:17.723 Status es String 
+03:56:17.725 ID es númerico 
+</div>   
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Read Pet by ID</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="1.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>call read(&#39;classpath:features/buscarPetID.feature&#39;) { id: 1510202538, respuesta: crear}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">620</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="1.12.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">features.buscarPetID</div>
+      </div>
+      <div class="time-cell passed">582</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.12.0.call">
+    <div class="step-container" id="1.12.0.call.0.4">
+      <div class="step-ref passed">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.12.0.call">
+    <div class="step-container" id="1.12.0.call.0.7">
+      <div class="step-ref passed">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url baseUrl + &#39;/pet/&#39; + id</span>
+      </div>
+    </div>
+    <div class="time-cell passed">5</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.12.0.call">
+    <div class="step-container" id="1.12.0.call.0.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">565</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.12.0.call.0.8">03:56:17.753 request:
+1 &gt; GET https://petstore.swagger.io/v2/pet/1510202538
+1 &gt; Content-Type: application/json
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.16)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+03:56:18.289 response time in milliseconds: 524
+1 &lt; 200
+1 &lt; Date: Wed, 15 Oct 2025 08:56:20 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 &lt; Server: Jetty(9.2.9.v20150224)
+{&quot;id&quot;:1510202538,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;Balto&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.12.0.call">
+    <div class="step-container" id="1.12.0.call.0.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>eval</span>
+      </div>
+    </div>
+    <div class="time-cell passed">11</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="1.12.0.call.0.9">if(responseStatus == 200){
+  karate.log(&quot;Respuesta correcta&quot;)
+  if(response.id == respuesta.id){
+    karate.log(&quot;ID consistentes&quot;)
+  }else{
+    karate.log(&quot;ID inconsistentes&quot;)
+  }
+}else{
+  karate.log(&quot;Servidor tardo demasiado en responder&quot;)
+}</div>
+
+  
+
+  <div class="preformatted" data-parent="1.12.0.call.0.9">03:56:18.323 Respuesta correcta 
+03:56:18.323 ID inconsistentes 
+</div>   
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Update Pet the name y status</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="1.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def actualizar =  call read(&#39;classpath:features/actualizarPetNameStatus.feature&#39;) {id: 1510202538, newName: &#39;Thor&#39;, newStatus: &#39;sold&#39;, respuesta: crear}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">567</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="1.15.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">features.actualizarPetNameStatus</div>
+      </div>
+      <div class="time-cell passed">496</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.15.0.call">
+    <div class="step-container" id="1.15.0.call.0.5">
+      <div class="step-ref passed">5</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def updatePayload =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="1.15.0.call.0.5">{
+  &quot;id&quot;: #(id),
+  &quot;name&quot;: &quot;#(newName)&quot;,
+  &quot;status&quot;: &quot;#(newStatus)&quot;
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.15.0.call">
+    <div class="step-container" id="1.15.0.call.0.14">
+      <div class="step-ref passed">14</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url baseUrl + &#39;/pet/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.15.0.call">
+    <div class="step-container" id="1.15.0.call.0.15">
+      <div class="step-ref passed">15</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.15.0.call">
+    <div class="step-container" id="1.15.0.call.0.16">
+      <div class="step-ref passed">16</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request updatePayload</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.15.0.call">
+    <div class="step-container" id="1.15.0.call.0.17">
+      <div class="step-ref passed">17</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method put</span>
+      </div>
+    </div>
+    <div class="time-cell passed">476</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.15.0.call.0.17">03:56:18.428 request:
+1 &gt; PUT https://petstore.swagger.io/v2/pet/
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 47
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.16)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;id&quot;:1510202538,&quot;name&quot;:&quot;Thor&quot;,&quot;status&quot;:&quot;sold&quot;}
+
+03:56:18.894 response time in milliseconds: 461
+1 &lt; 200
+1 &lt; Date: Wed, 15 Oct 2025 08:56:21 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 &lt; Server: Jetty(9.2.9.v20150224)
+{&quot;id&quot;:1510202538,&quot;name&quot;:&quot;Thor&quot;,&quot;photoUrls&quot;:[],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.15.0.call">
+    <div class="step-container" id="1.15.0.call.0.18">
+      <div class="step-ref passed">18</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>eval</span>
+      </div>
+    </div>
+    <div class="time-cell passed">15</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="1.15.0.call.0.18">if (responseStatus == 200 ){
+  if (response.name == newName){
+    karate.log(&quot;Nuevo nombre de pet es: &quot;+response.name)
+  }else{
+    karate.log(&quot;Inconsistencia de nombre&quot;)
+  }
+  if (response.status == newStatus){
+    karate.log(&quot;Nuevo estado de pet es: &quot;+response.status)
+  }else{
+    karate.log(&quot;Inconsistencia de estado&quot;)
+  }
+  karate.log(&quot;Actualizaciones de nombre y estado EXITOSO&quot;)
+}else{
+  karate.log(&quot;Inestabilidad en el endpoint&quot;)
+}</div>
+
+  
+
+  <div class="preformatted" data-parent="1.15.0.call.0.18">03:56:18.905 Nuevo nombre de pet es: Thor 
+03:56:18.905 Nuevo estado de pet es: sold 
+03:56:18.905 Actualizaciones de nombre y estado EXITOSO 
+</div>   
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Read Pet by Status</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="1.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>call read(&#39;classpath:features/buscarPetActualizadoStatus.feature&#39;) {id: 1510202538, newStatus: &#39;sold&#39;, respuesta: crear}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">624</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="1.18.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">features.buscarPetActualizadoStatus</div>
+      </div>
+      <div class="time-cell passed">582</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.18.0.call">
+    <div class="step-container" id="1.18.0.call.0.5">
+      <div class="step-ref passed">5</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.18.0.call">
+    <div class="step-container" id="1.18.0.call.0.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url baseUrl + &#39;/pet/findByStatus&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.18.0.call">
+    <div class="step-container" id="1.18.0.call.0.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param status = newStatus</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.18.0.call">
+    <div class="step-container" id="1.18.0.call.0.10">
+      <div class="step-ref passed">10</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">508</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.18.0.call.0.10">03:56:18.962 request:
+1 &gt; GET https://petstore.swagger.io/v2/pet/findByStatus?status=sold
+1 &gt; Content-Type: application/json
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.16)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+03:56:19.465 response time in milliseconds: 503
+1 &lt; 200
+1 &lt; Date: Wed, 15 Oct 2025 08:56:22 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 &lt; Server: Jetty(9.2.9.v20150224)
+[{&quot;id&quot;:9223372036854739512,&quot;category&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;Dogs&quot;},&quot;name&quot;:&quot;UpdatedPet_1760513384319&quot;,&quot;photoUrls&quot;:[&quot;https://example.com/photo1.jpg&quot;,&quot;https://example.com/photo2.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;playful&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:13,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;cats&quot;},&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:1510202538,&quot;name&quot;:&quot;Thor&quot;,&quot;photoUrls&quot;:[],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:1510204576,&quot;name&quot;:&quot;Zeus&quot;,&quot;photoUrls&quot;:[],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17,&quot;category&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;Dogs&quot;},&quot;name&quot;:&quot;FormUpdateinvoiceDog&quot;,&quot;photoUrls&quot;:[&quot;http://example.com/updated_photo.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:10,&quot;name&quot;:&quot;friendly&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:1510208765,&quot;name&quot;:&quot;Thor&quot;,&quot;photoUrls&quot;:[],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:705439570,&quot;category&quot;:{&quot;id&quot;:18832573,&quot;name&quot;:&quot;something&quot;},&quot;name&quot;:&quot;Lopik&quot;,&quot;photoUrls&quot;:[&quot;https://dummyimage.com/428x166&quot;],&quot;tags&quot;:[{&quot;id&quot;:675611531,&quot;name&quot;:&quot;tend&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:458,&quot;name&quot;:&quot;Updated_u&quot;,&quot;photoUrls&quot;:[&quot;http://example.com/updated_photo.jpg&quot;],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:9223372036854740268,&quot;category&quot;:{&quot;id&quot;:100,&quot;name&quot;:&quot;dog&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:9223372036854740280,&quot;category&quot;:{&quot;id&quot;:100,&quot;name&quot;:&quot;dog&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:20,&quot;name&quot;:&quot;ckiku&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:9223372036854740371,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;cat&quot;},&quot;name&quot;:&quot;Markus&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;sold&quot;}]
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.18.0.call">
+    <div class="step-container" id="1.18.0.call.0.11">
+      <div class="step-ref passed">11</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print &#39;Conjuntojson&#39;, karate.filter(response, x =&gt; x.id == crear.id)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">11</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.18.0.call.0.11">03:56:19.465 [print] Conjuntojson [
+  {
+    &quot;id&quot;: 1510202538,
+    &quot;name&quot;: &quot;Thor&quot;,
+    &quot;photoUrls&quot;: [
+    ],
+    &quot;tags&quot;: [
+    ],
+    &quot;status&quot;: &quot;sold&quot;
+  }
+]
+ 
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.18.0.call">
+    <div class="step-container" id="1.18.0.call.0.12">
+      <div class="step-ref passed">12</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def busquedafiltrada = karate.filter(response, x =&gt; x.id == crear.id)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">7</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.18.0.call">
+    <div class="step-container" id="1.18.0.call.0.13">
+      <div class="step-ref passed">13</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>eval</span>
+      </div>
+    </div>
+    <div class="time-cell passed">52</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="1.18.0.call.0.13">if (busquedafiltrada.length &gt; 0){
+  karate.match(&#39;result.response contains _&#39;, busquedafiltrada[0])
+}else{
+  var busqueda = karate.filter(response, x =&gt; x.status == crear.status);
+  if (busqueda.length &gt; 0 ){
+    karate.match(&#39;result.response contains _&#39;, busqueda[0])
+  }else{
+     karate.log(&#39;Existe elementos&#39;);
+  }
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.18.0.call">
+    <div class="step-container" id="1.18.0.call.0.26">
+      <div class="step-ref passed">26</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print &#39;SEARCH FUNCTIONALITY VERIFIED SUCCESSFULLY&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.18.0.call.0.26">03:56:19.540 [print] SEARCH FUNCTIONALITY VERIFIED SUCCESSFULLY 
+</div>   
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.2:23]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">principal</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.2:23]</span>
+                <span class="scenario-name">CRUD complete of pet</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>2039</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.2:23]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.2:23]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def baseUrl = &#39;https://petstore.swagger.io/v2&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">7</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Create Pet</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="2.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def crear = call read(&#39;classpath:features/crearPet.feature&#39;) { id: 1510204576, name: &#39;Rocky&#39;, status: &#39;pending&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">532</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="2.9.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">features.crearPet</div>
+      </div>
+      <div class="time-cell passed">504</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.9.0.call">
+    <div class="step-container" id="2.9.0.call.0.5">
+      <div class="step-ref passed">5</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.9.0.call">
+    <div class="step-container" id="2.9.0.call.0.6">
+      <div class="step-ref passed">6</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def bodyS = read(&#39;classpath:datos/bodyAdd.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.9.0.call">
+    <div class="step-container" id="2.9.0.call.0.7">
+      <div class="step-ref passed">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set bodyS.id = id</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.9.0.call">
+    <div class="step-container" id="2.9.0.call.0.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set bodyS.name = name</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.9.0.call">
+    <div class="step-container" id="2.9.0.call.0.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set bodyS.status = status</span>
+      </div>
+    </div>
+    <div class="time-cell passed">14</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.9.0.call">
+    <div class="step-container" id="2.9.0.call.0.13">
+      <div class="step-ref passed">13</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url baseUrl + &#39;/pet&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.9.0.call">
+    <div class="step-container" id="2.9.0.call.0.14">
+      <div class="step-ref passed">14</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request bodyS</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.9.0.call">
+    <div class="step-container" id="2.9.0.call.0.15">
+      <div class="step-ref passed">15</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">478</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.9.0.call.0.15">03:56:19.695 request:
+1 &gt; POST https://petstore.swagger.io/v2/pet
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 144
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.16)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;id&quot;:1510204576,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;Rocky&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;pending&quot;}
+
+03:56:20.142 response time in milliseconds: 447
+1 &lt; 200
+1 &lt; Date: Wed, 15 Oct 2025 08:56:22 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 &lt; Server: Jetty(9.2.9.v20150224)
+{&quot;id&quot;:1510204576,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;Rocky&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;pending&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.9.0.call">
+    <div class="step-container" id="2.9.0.call.0.16">
+      <div class="step-ref passed">16</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>eval</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="2.9.0.call.0.16">if (responseStatus == 200) {
+  // Validación
+  if (response.id == id) {
+    karate.log(&#39;ID correcto&#39;);
+  }else{
+    karate.log(&quot;ID incorrecto&quot;)
+  }
+  if (typeof response.status === &#39;string&#39;) {
+    karate.log(&#39;Status es String&#39;);
+  }else{
+    karate.log(&quot;Status no es String&quot;)
+  }
+  if (typeof response.id === &#39;number&#39;) {
+    karate.log(&#39;ID es númerico&#39;);
+  }else{
+    karate.log(&quot;ID incorrecto&quot;)
+  }
+}else{
+  karate.log(&#39;API es inestable&#39;)
+}</div>
+
+  
+
+  <div class="preformatted" data-parent="2.9.0.call.0.16">03:56:20.142 ID correcto 
+03:56:20.142 Status es String 
+03:56:20.142 ID es númerico 
+</div>   
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Read Pet by ID</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="2.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>call read(&#39;classpath:features/buscarPetID.feature&#39;) { id: 1510204576, respuesta: crear}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">482</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="2.12.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">features.buscarPetID</div>
+      </div>
+      <div class="time-cell passed">471</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.12.0.call">
+    <div class="step-container" id="2.12.0.call.0.4">
+      <div class="step-ref passed">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.12.0.call">
+    <div class="step-container" id="2.12.0.call.0.7">
+      <div class="step-ref passed">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url baseUrl + &#39;/pet/&#39; + id</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.12.0.call">
+    <div class="step-container" id="2.12.0.call.0.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">468</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.12.0.call.0.8">03:56:20.157 request:
+1 &gt; GET https://petstore.swagger.io/v2/pet/1510204576
+1 &gt; Content-Type: application/json
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.16)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+03:56:20.620 response time in milliseconds: 463
+1 &lt; 200
+1 &lt; Date: Wed, 15 Oct 2025 08:56:23 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 &lt; Server: Jetty(9.2.9.v20150224)
+{&quot;id&quot;:1510204576,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;Rocky&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;pending&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.12.0.call">
+    <div class="step-container" id="2.12.0.call.0.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>eval</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="2.12.0.call.0.9">if(responseStatus == 200){
+  karate.log(&quot;Respuesta correcta&quot;)
+  if(response.id == respuesta.id){
+    karate.log(&quot;ID consistentes&quot;)
+  }else{
+    karate.log(&quot;ID inconsistentes&quot;)
+  }
+}else{
+  karate.log(&quot;Servidor tardo demasiado en responder&quot;)
+}</div>
+
+  
+
+  <div class="preformatted" data-parent="2.12.0.call.0.9">03:56:20.620 Respuesta correcta 
+03:56:20.620 ID inconsistentes 
+</div>   
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Update Pet the name y status</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="2.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def actualizar =  call read(&#39;classpath:features/actualizarPetNameStatus.feature&#39;) {id: 1510204576, newName: &#39;Zeus&#39;, newStatus: &#39;sold&#39;, respuesta: crear}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">492</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="2.15.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">features.actualizarPetNameStatus</div>
+      </div>
+      <div class="time-cell passed">472</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.15.0.call">
+    <div class="step-container" id="2.15.0.call.0.5">
+      <div class="step-ref passed">5</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def updatePayload =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="2.15.0.call.0.5">{
+  &quot;id&quot;: #(id),
+  &quot;name&quot;: &quot;#(newName)&quot;,
+  &quot;status&quot;: &quot;#(newStatus)&quot;
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.15.0.call">
+    <div class="step-container" id="2.15.0.call.0.14">
+      <div class="step-ref passed">14</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url baseUrl + &#39;/pet/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.15.0.call">
+    <div class="step-container" id="2.15.0.call.0.15">
+      <div class="step-ref passed">15</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.15.0.call">
+    <div class="step-container" id="2.15.0.call.0.16">
+      <div class="step-ref passed">16</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request updatePayload</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.15.0.call">
+    <div class="step-container" id="2.15.0.call.0.17">
+      <div class="step-ref passed">17</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method put</span>
+      </div>
+    </div>
+    <div class="time-cell passed">462</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.15.0.call.0.17">03:56:20.663 request:
+1 &gt; PUT https://petstore.swagger.io/v2/pet/
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 47
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.16)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;id&quot;:1510204576,&quot;name&quot;:&quot;Zeus&quot;,&quot;status&quot;:&quot;sold&quot;}
+
+03:56:21.113 response time in milliseconds: 444
+1 &lt; 200
+1 &lt; Date: Wed, 15 Oct 2025 08:56:23 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 &lt; Server: Jetty(9.2.9.v20150224)
+{&quot;id&quot;:1510204576,&quot;name&quot;:&quot;Zeus&quot;,&quot;photoUrls&quot;:[],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.15.0.call">
+    <div class="step-container" id="2.15.0.call.0.18">
+      <div class="step-ref passed">18</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>eval</span>
+      </div>
+    </div>
+    <div class="time-cell passed">7</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="2.15.0.call.0.18">if (responseStatus == 200 ){
+  if (response.name == newName){
+    karate.log(&quot;Nuevo nombre de pet es: &quot;+response.name)
+  }else{
+    karate.log(&quot;Inconsistencia de nombre&quot;)
+  }
+  if (response.status == newStatus){
+    karate.log(&quot;Nuevo estado de pet es: &quot;+response.status)
+  }else{
+    karate.log(&quot;Inconsistencia de estado&quot;)
+  }
+  karate.log(&quot;Actualizaciones de nombre y estado EXITOSO&quot;)
+}else{
+  karate.log(&quot;Inestabilidad en el endpoint&quot;)
+}</div>
+
+  
+
+  <div class="preformatted" data-parent="2.15.0.call.0.18">03:56:21.113 Nuevo nombre de pet es: Zeus 
+03:56:21.113 Nuevo estado de pet es: sold 
+03:56:21.128 Actualizaciones de nombre y estado EXITOSO 
+</div>   
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Read Pet by Status</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="2.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>call read(&#39;classpath:features/buscarPetActualizadoStatus.feature&#39;) {id: 1510204576, newStatus: &#39;sold&#39;, respuesta: crear}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">526</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="2.18.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">features.buscarPetActualizadoStatus</div>
+      </div>
+      <div class="time-cell passed">497</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.18.0.call">
+    <div class="step-container" id="2.18.0.call.0.5">
+      <div class="step-ref passed">5</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.18.0.call">
+    <div class="step-container" id="2.18.0.call.0.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url baseUrl + &#39;/pet/findByStatus&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.18.0.call">
+    <div class="step-container" id="2.18.0.call.0.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param status = newStatus</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.18.0.call">
+    <div class="step-container" id="2.18.0.call.0.10">
+      <div class="step-ref passed">10</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">489</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.18.0.call.0.10">03:56:21.161 request:
+1 &gt; GET https://petstore.swagger.io/v2/pet/findByStatus?status=sold
+1 &gt; Content-Type: application/json
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.16)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+03:56:21.643 response time in milliseconds: 476
+1 &lt; 200
+1 &lt; Date: Wed, 15 Oct 2025 08:56:24 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 &lt; Server: Jetty(9.2.9.v20150224)
+[{&quot;id&quot;:9223372036854739512,&quot;category&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;Dogs&quot;},&quot;name&quot;:&quot;UpdatedPet_1760513384319&quot;,&quot;photoUrls&quot;:[&quot;https://example.com/photo1.jpg&quot;,&quot;https://example.com/photo2.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;playful&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:13,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;cats&quot;},&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:1510202538,&quot;name&quot;:&quot;Thor&quot;,&quot;photoUrls&quot;:[],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:1510204576,&quot;name&quot;:&quot;Zeus&quot;,&quot;photoUrls&quot;:[],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17,&quot;category&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;Dogs&quot;},&quot;name&quot;:&quot;FormUpdateinvoiceDog&quot;,&quot;photoUrls&quot;:[&quot;http://example.com/updated_photo.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:10,&quot;name&quot;:&quot;friendly&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:1510208765,&quot;name&quot;:&quot;Thor&quot;,&quot;photoUrls&quot;:[],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:705439570,&quot;category&quot;:{&quot;id&quot;:18832573,&quot;name&quot;:&quot;something&quot;},&quot;name&quot;:&quot;Lopik&quot;,&quot;photoUrls&quot;:[&quot;https://dummyimage.com/428x166&quot;],&quot;tags&quot;:[{&quot;id&quot;:675611531,&quot;name&quot;:&quot;tend&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:458,&quot;name&quot;:&quot;Updated_u&quot;,&quot;photoUrls&quot;:[&quot;http://example.com/updated_photo.jpg&quot;],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:9223372036854740268,&quot;category&quot;:{&quot;id&quot;:100,&quot;name&quot;:&quot;dog&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:9223372036854740280,&quot;category&quot;:{&quot;id&quot;:100,&quot;name&quot;:&quot;dog&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:20,&quot;name&quot;:&quot;ckiku&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:9223372036854740371,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;cat&quot;},&quot;name&quot;:&quot;Markus&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;sold&quot;}]
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.18.0.call">
+    <div class="step-container" id="2.18.0.call.0.11">
+      <div class="step-ref passed">11</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print &#39;Conjuntojson&#39;, karate.filter(response, x =&gt; x.id == crear.id)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.18.0.call.0.11">03:56:21.643 [print] Conjuntojson [
+  {
+    &quot;id&quot;: 1510204576,
+    &quot;name&quot;: &quot;Zeus&quot;,
+    &quot;photoUrls&quot;: [
+    ],
+    &quot;tags&quot;: [
+    ],
+    &quot;status&quot;: &quot;sold&quot;
+  }
+]
+ 
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.18.0.call">
+    <div class="step-container" id="2.18.0.call.0.12">
+      <div class="step-ref passed">12</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def busquedafiltrada = karate.filter(response, x =&gt; x.id == crear.id)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.18.0.call">
+    <div class="step-container" id="2.18.0.call.0.13">
+      <div class="step-ref passed">13</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>eval</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="2.18.0.call.0.13">if (busquedafiltrada.length &gt; 0){
+  karate.match(&#39;result.response contains _&#39;, busquedafiltrada[0])
+}else{
+  var busqueda = karate.filter(response, x =&gt; x.status == crear.status);
+  if (busqueda.length &gt; 0 ){
+    karate.match(&#39;result.response contains _&#39;, busqueda[0])
+  }else{
+     karate.log(&#39;Existe elementos&#39;);
+  }
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.18.0.call">
+    <div class="step-container" id="2.18.0.call.0.26">
+      <div class="step-ref passed">26</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print &#39;SEARCH FUNCTIONALITY VERIFIED SUCCESSFULLY&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.18.0.call.0.26">03:56:21.643 [print] SEARCH FUNCTIONALITY VERIFIED SUCCESSFULLY 
+</div>   
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.3:24]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">principal</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.3:24]</span>
+                <span class="scenario-name">CRUD complete of pet</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>2061</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.3:24]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.3:24]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def baseUrl = &#39;https://petstore.swagger.io/v2&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Create Pet</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="3.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def crear = call read(&#39;classpath:features/crearPet.feature&#39;) { id: 1510208765, name: &#39;Bruno&#39;, status: &#39;stock&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">523</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="3.9.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">features.crearPet</div>
+      </div>
+      <div class="time-cell passed">485</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.9.0.call">
+    <div class="step-container" id="3.9.0.call.0.5">
+      <div class="step-ref passed">5</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.9.0.call">
+    <div class="step-container" id="3.9.0.call.0.6">
+      <div class="step-ref passed">6</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def bodyS = read(&#39;classpath:datos/bodyAdd.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.9.0.call">
+    <div class="step-container" id="3.9.0.call.0.7">
+      <div class="step-ref passed">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set bodyS.id = id</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.9.0.call">
+    <div class="step-container" id="3.9.0.call.0.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set bodyS.name = name</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.9.0.call">
+    <div class="step-container" id="3.9.0.call.0.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set bodyS.status = status</span>
+      </div>
+    </div>
+    <div class="time-cell passed">5</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.9.0.call">
+    <div class="step-container" id="3.9.0.call.0.13">
+      <div class="step-ref passed">13</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url baseUrl + &#39;/pet&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.9.0.call">
+    <div class="step-container" id="3.9.0.call.0.14">
+      <div class="step-ref passed">14</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request bodyS</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.9.0.call">
+    <div class="step-container" id="3.9.0.call.0.15">
+      <div class="step-ref passed">15</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">475</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.9.0.call.0.15">03:56:21.720 request:
+1 &gt; POST https://petstore.swagger.io/v2/pet
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 142
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.16)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;id&quot;:1510208765,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;Bruno&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;stock&quot;}
+
+03:56:22.192 response time in milliseconds: 472
+1 &lt; 200
+1 &lt; Date: Wed, 15 Oct 2025 08:56:24 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 &lt; Server: Jetty(9.2.9.v20150224)
+{&quot;id&quot;:1510208765,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;Bruno&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;stock&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.9.0.call">
+    <div class="step-container" id="3.9.0.call.0.16">
+      <div class="step-ref passed">16</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>eval</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="3.9.0.call.0.16">if (responseStatus == 200) {
+  // Validación
+  if (response.id == id) {
+    karate.log(&#39;ID correcto&#39;);
+  }else{
+    karate.log(&quot;ID incorrecto&quot;)
+  }
+  if (typeof response.status === &#39;string&#39;) {
+    karate.log(&#39;Status es String&#39;);
+  }else{
+    karate.log(&quot;Status no es String&quot;)
+  }
+  if (typeof response.id === &#39;number&#39;) {
+    karate.log(&#39;ID es númerico&#39;);
+  }else{
+    karate.log(&quot;ID incorrecto&quot;)
+  }
+}else{
+  karate.log(&#39;API es inestable&#39;)
+}</div>
+
+  
+
+  <div class="preformatted" data-parent="3.9.0.call.0.16">03:56:22.197 ID correcto 
+03:56:22.197 Status es String 
+03:56:22.197 ID es númerico 
+</div>   
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Read Pet by ID</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="3.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>call read(&#39;classpath:features/buscarPetID.feature&#39;) { id: 1510208765, respuesta: crear}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">503</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="3.12.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">features.buscarPetID</div>
+      </div>
+      <div class="time-cell passed">481</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.12.0.call">
+    <div class="step-container" id="3.12.0.call.0.4">
+      <div class="step-ref passed">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.12.0.call">
+    <div class="step-container" id="3.12.0.call.0.7">
+      <div class="step-ref passed">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url baseUrl + &#39;/pet/&#39; + id</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.12.0.call">
+    <div class="step-container" id="3.12.0.call.0.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">475</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.12.0.call.0.8">03:56:22.210 request:
+1 &gt; GET https://petstore.swagger.io/v2/pet/1510208765
+1 &gt; Content-Type: application/json
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.16)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+03:56:22.678 response time in milliseconds: 468
+1 &lt; 200
+1 &lt; Date: Wed, 15 Oct 2025 08:56:25 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 &lt; Server: Jetty(9.2.9.v20150224)
+{&quot;id&quot;:1510208765,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;Bruno&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;stock&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.12.0.call">
+    <div class="step-container" id="3.12.0.call.0.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>eval</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="3.12.0.call.0.9">if(responseStatus == 200){
+  karate.log(&quot;Respuesta correcta&quot;)
+  if(response.id == respuesta.id){
+    karate.log(&quot;ID consistentes&quot;)
+  }else{
+    karate.log(&quot;ID inconsistentes&quot;)
+  }
+}else{
+  karate.log(&quot;Servidor tardo demasiado en responder&quot;)
+}</div>
+
+  
+
+  <div class="preformatted" data-parent="3.12.0.call.0.9">03:56:22.694 Respuesta correcta 
+03:56:22.698 ID inconsistentes 
+</div>   
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Update Pet the name y status</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="3.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def actualizar =  call read(&#39;classpath:features/actualizarPetNameStatus.feature&#39;) {id: 1510208765, newName: &#39;Thor&#39;, newStatus: &#39;sold&#39;, respuesta: crear}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">554</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="3.15.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">features.actualizarPetNameStatus</div>
+      </div>
+      <div class="time-cell passed">523</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.15.0.call">
+    <div class="step-container" id="3.15.0.call.0.5">
+      <div class="step-ref passed">5</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def updatePayload =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="3.15.0.call.0.5">{
+  &quot;id&quot;: #(id),
+  &quot;name&quot;: &quot;#(newName)&quot;,
+  &quot;status&quot;: &quot;#(newStatus)&quot;
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.15.0.call">
+    <div class="step-container" id="3.15.0.call.0.14">
+      <div class="step-ref passed">14</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url baseUrl + &#39;/pet/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.15.0.call">
+    <div class="step-container" id="3.15.0.call.0.15">
+      <div class="step-ref passed">15</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.15.0.call">
+    <div class="step-container" id="3.15.0.call.0.16">
+      <div class="step-ref passed">16</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request updatePayload</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.15.0.call">
+    <div class="step-container" id="3.15.0.call.0.17">
+      <div class="step-ref passed">17</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method put</span>
+      </div>
+    </div>
+    <div class="time-cell passed">519</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.15.0.call.0.17">03:56:22.738 request:
+1 &gt; PUT https://petstore.swagger.io/v2/pet/
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 47
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.16)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;id&quot;:1510208765,&quot;name&quot;:&quot;Thor&quot;,&quot;status&quot;:&quot;sold&quot;}
+
+03:56:23.246 response time in milliseconds: 508
+1 &lt; 200
+1 &lt; Date: Wed, 15 Oct 2025 08:56:25 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 &lt; Server: Jetty(9.2.9.v20150224)
+{&quot;id&quot;:1510208765,&quot;name&quot;:&quot;Thor&quot;,&quot;photoUrls&quot;:[],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.15.0.call">
+    <div class="step-container" id="3.15.0.call.0.18">
+      <div class="step-ref passed">18</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>eval</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="3.15.0.call.0.18">if (responseStatus == 200 ){
+  if (response.name == newName){
+    karate.log(&quot;Nuevo nombre de pet es: &quot;+response.name)
+  }else{
+    karate.log(&quot;Inconsistencia de nombre&quot;)
+  }
+  if (response.status == newStatus){
+    karate.log(&quot;Nuevo estado de pet es: &quot;+response.status)
+  }else{
+    karate.log(&quot;Inconsistencia de estado&quot;)
+  }
+  karate.log(&quot;Actualizaciones de nombre y estado EXITOSO&quot;)
+}else{
+  karate.log(&quot;Inestabilidad en el endpoint&quot;)
+}</div>
+
+  
+
+  <div class="preformatted" data-parent="3.15.0.call.0.18">03:56:23.246 Nuevo nombre de pet es: Thor 
+03:56:23.246 Nuevo estado de pet es: sold 
+03:56:23.246 Actualizaciones de nombre y estado EXITOSO 
+</div>   
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Read Pet by Status</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="3.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>call read(&#39;classpath:features/buscarPetActualizadoStatus.feature&#39;) {id: 1510208765, newStatus: &#39;sold&#39;, respuesta: crear}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">479</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="3.18.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">features.buscarPetActualizadoStatus</div>
+      </div>
+      <div class="time-cell passed">466</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.18.0.call">
+    <div class="step-container" id="3.18.0.call.0.5">
+      <div class="step-ref passed">5</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.18.0.call">
+    <div class="step-container" id="3.18.0.call.0.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url baseUrl + &#39;/pet/findByStatus&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.18.0.call">
+    <div class="step-container" id="3.18.0.call.0.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param status = newStatus</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.18.0.call">
+    <div class="step-container" id="3.18.0.call.0.10">
+      <div class="step-ref passed">10</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">449</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.18.0.call.0.10">03:56:23.262 request:
+1 &gt; GET https://petstore.swagger.io/v2/pet/findByStatus?status=sold
+1 &gt; Content-Type: application/json
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.16)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+03:56:23.712 response time in milliseconds: 447
+1 &lt; 200
+1 &lt; Date: Wed, 15 Oct 2025 08:56:26 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 &lt; Server: Jetty(9.2.9.v20150224)
+[{&quot;id&quot;:651639,&quot;category&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;cats&quot;},&quot;name&quot;:&quot;Chupa&quot;,&quot;photoUrls&quot;:[&quot;https://example.com/cat.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;cute&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:179271,&quot;category&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;cats&quot;},&quot;name&quot;:&quot;Chupa&quot;,&quot;photoUrls&quot;:[&quot;https://example.com/cat.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;cute&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:183498,&quot;category&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;cats&quot;},&quot;name&quot;:&quot;Chupa&quot;,&quot;photoUrls&quot;:[&quot;https://example.com/cat.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;cute&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:13,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;cats&quot;},&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:2656541,&quot;name&quot;:&quot;waf waf&quot;,&quot;photoUrls&quot;:[&quot;./dog.png&quot;],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:1510202538,&quot;name&quot;:&quot;Thor&quot;,&quot;photoUrls&quot;:[],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:1510204576,&quot;name&quot;:&quot;Zeus&quot;,&quot;photoUrls&quot;:[],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:1510208765,&quot;name&quot;:&quot;Thor&quot;,&quot;photoUrls&quot;:[],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:6266232023,&quot;category&quot;:{&quot;id&quot;:3,&quot;name&quot;:&quot;Домашнее животное&quot;},&quot;name&quot;:&quot;Пушок&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:7,&quot;name&quot;:&quot;Кролик&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:9,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;cats&quot;},&quot;name&quot;:&quot;King Kong&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:253011529,&quot;category&quot;:{&quot;id&quot;:1125999497,&quot;name&quot;:&quot;radio&quot;},&quot;name&quot;:&quot;Alfredicus&quot;,&quot;photoUrls&quot;:[&quot;https://placekitten.com/676/193&quot;],&quot;tags&quot;:[{&quot;id&quot;:249675065,&quot;name&quot;:&quot;director&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:9223372036854740366,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;cat&quot;},&quot;name&quot;:&quot;Markus&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:9223372036854740395,&quot;category&quot;:{&quot;id&quot;:100,&quot;name&quot;:&quot;dog&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:20,&quot;name&quot;:&quot;ckiku&quot;}],&quot;status&quot;:&quot;sold&quot;}]
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.18.0.call">
+    <div class="step-container" id="3.18.0.call.0.11">
+      <div class="step-ref passed">11</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print &#39;Conjuntojson&#39;, karate.filter(response, x =&gt; x.id == crear.id)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">6</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.18.0.call.0.11">03:56:23.712 [print] Conjuntojson [
+  {
+    &quot;id&quot;: 1510208765,
+    &quot;name&quot;: &quot;Thor&quot;,
+    &quot;photoUrls&quot;: [
+    ],
+    &quot;tags&quot;: [
+    ],
+    &quot;status&quot;: &quot;sold&quot;
+  }
+]
+ 
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.18.0.call">
+    <div class="step-container" id="3.18.0.call.0.12">
+      <div class="step-ref passed">12</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def busquedafiltrada = karate.filter(response, x =&gt; x.id == crear.id)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">7</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.18.0.call">
+    <div class="step-container" id="3.18.0.call.0.13">
+      <div class="step-ref passed">13</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>eval</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="3.18.0.call.0.13">if (busquedafiltrada.length &gt; 0){
+  karate.match(&#39;result.response contains _&#39;, busquedafiltrada[0])
+}else{
+  var busqueda = karate.filter(response, x =&gt; x.status == crear.status);
+  if (busqueda.length &gt; 0 ){
+    karate.match(&#39;result.response contains _&#39;, busqueda[0])
+  }else{
+     karate.log(&#39;Existe elementos&#39;);
+  }
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.18.0.call">
+    <div class="step-container" id="3.18.0.call.0.26">
+      <div class="step-ref passed">26</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print &#39;SEARCH FUNCTIONALITY VERIFIED SUCCESSFULLY&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.18.0.call.0.26">03:56:23.730 [print] SEARCH FUNCTIONALITY VERIFIED SUCCESSFULLY 
+</div>   
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

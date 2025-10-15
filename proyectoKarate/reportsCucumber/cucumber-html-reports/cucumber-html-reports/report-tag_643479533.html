@@ -1,0 +1,4047 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports  - Tag: @principal</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation" ><a href="overview-steps.html">Steps</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>Karate Test Report</td>
+      <td>15 oct. 2025, 03:56</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Tag Report</h2>
+  </div>
+</div>
+
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table class="stats-table">
+
+
+<thead>
+  <tr class="header dont-sort">
+      <th></th>
+    <th colspan="6">Steps</th>
+    <th colspan="3">Scenarios</th>
+    <th colspan="2">Features</th>
+  </tr>
+  <tr>
+    <th>Tag</th>
+    <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="skipped">Skipped</th>
+    <th class="pending">Pending</th>
+    <th class="undefined">Undefined</th>
+    <th class="total">Total</th>
+
+    <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="total">Total</th>
+
+    <th>Duration</th>
+    <th>Status</th>
+  </tr>
+</thead>
+
+
+        <tbody>
+        <tr>
+          <td class="tagname">@principal</td>
+          <td      class="passed"    >105</td>
+          <td >0</td>
+          <td >0</td>
+          <td >0</td>
+          <td >0</td>
+          <td class="total">105</td>
+
+          <td  class="passed"    >3</td>
+          <td >0</td>
+          <td class="total">3</td>
+
+          <td class="duration" data-value="14853190000">14.853</td>
+          <td class="passed">Passed</td>
+        </tr>
+        </tbody>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-1 col-md-offset-10">
+      <i class="fa fa-chevron-circle-down fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('show')"></i>
+      <i class="fa fa-chevron-circle-up fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('hide')"></i>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="elements">
+
+
+<div class="element">
+    <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_772841443.html">features/principal.feature</a>
+    </div>
+
+
+<div class="tags indention">
+    <b>Tags:</b>
+       <a href="report-tag_643479533.html">@principal</a>
+</div>
+
+
+  <span class="lead-duration duration">6.863</span>
+
+
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
+
+<div class="brief passed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">CRUD complete of pet</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-1" class="collapse collapsable-details ">
+
+
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-2">
+
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-2" class="inner-level collapse collapsable-details ">
+      <div class="step">
+          <div class="comment indention"># Create Pet</div>
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def crear = call read('classpath:features/crearPet.feature') { id: 1510202538, name: 'Balto', status: 'available' }</span>
+
+  <span class="lead-duration duration">1.739</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name- passed">
+  <span class="keyword indention"></span>
+  <span class="name">features/crearPet.feature</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">header Content-Type = 'application/json'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">def bodyS = read('classpath:datos/bodyAdd.json')</span>
+
+  <span class="lead-duration duration">0.010</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">set bodyS.id = id</span>
+
+  <span class="lead-duration duration">0.004</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">set bodyS.name = name</span>
+
+  <span class="lead-duration duration">0.006</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">set bodyS.status = status</span>
+
+  <span class="lead-duration duration">0.008</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; Given passed">
+  <span class="keyword indention">&gt; Given</span>
+  <span class="name">url baseUrl + '/pet'</span>
+
+  <span class="lead-duration duration">0.018</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; And passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">request bodyS</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; When passed">
+  <span class="keyword indention">&gt; When</span>
+  <span class="name">method post</span>
+
+  <span class="lead-duration duration">1.549</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-3">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-3" class="collapse collapsable-details">
+        <pre>03:56:16.654 request:
+1 &gt; POST https://petstore.swagger.io/v2/pet
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 146
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.16)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;id&quot;:1510202538,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;Balto&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;}
+
+03:56:17.669 response time in milliseconds: 1005
+1 &lt; 200
+1 &lt; Date: Wed, 15 Oct 2025 08:56:20 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 &lt; Server: Jetty(9.2.9.v20150224)
+{&quot;id&quot;:1510202538,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;Balto&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;}
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">eval</span>
+
+  <span class="lead-duration duration">0.051</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-4">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-4" class="collapse collapsable-details">
+        <pre>if (responseStatus == 200) {
+  // Validaci&oacute;n
+  if (response.id == id) {
+    karate.log('ID correcto');
+  }else{
+    karate.log(&quot;ID incorrecto&quot;)
+  }
+  if (typeof response.status === 'string') {
+    karate.log('Status es String');
+  }else{
+    karate.log(&quot;Status no es String&quot;)
+  }
+  if (typeof response.id === 'number') {
+    karate.log('ID es n&uacute;merico');
+  }else{
+    karate.log(&quot;ID incorrecto&quot;)
+  }
+}else{
+  karate.log('API es inestable')
+}03:56:17.722 ID correcto 
+03:56:17.723 Status es String 
+03:56:17.725 ID es n&uacute;merico 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+          <div class="comment indention"># Read Pet by ID</div>
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">call read('classpath:features/buscarPetID.feature') { id: 1510202538, respuesta: crear}</span>
+
+  <span class="lead-duration duration">0.620</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name- passed">
+  <span class="keyword indention"></span>
+  <span class="name">features/buscarPetID.feature</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">header Content-Type = 'application/json'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; Given passed">
+  <span class="keyword indention">&gt; Given</span>
+  <span class="name">url baseUrl + '/pet/' + id</span>
+
+  <span class="lead-duration duration">0.004</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; When passed">
+  <span class="keyword indention">&gt; When</span>
+  <span class="name">method get</span>
+
+  <span class="lead-duration duration">0.565</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-5">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-5" class="collapse collapsable-details">
+        <pre>03:56:17.753 request:
+1 &gt; GET https://petstore.swagger.io/v2/pet/1510202538
+1 &gt; Content-Type: application/json
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.16)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+03:56:18.289 response time in milliseconds: 524
+1 &lt; 200
+1 &lt; Date: Wed, 15 Oct 2025 08:56:20 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 &lt; Server: Jetty(9.2.9.v20150224)
+{&quot;id&quot;:1510202538,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;Balto&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;}
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">eval</span>
+
+  <span class="lead-duration duration">0.011</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-6">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-6" class="collapse collapsable-details">
+        <pre>if(responseStatus == 200){
+  karate.log(&quot;Respuesta correcta&quot;)
+  if(response.id == respuesta.id){
+    karate.log(&quot;ID consistentes&quot;)
+  }else{
+    karate.log(&quot;ID inconsistentes&quot;)
+  }
+}else{
+  karate.log(&quot;Servidor tardo demasiado en responder&quot;)
+}03:56:18.323 Respuesta correcta 
+03:56:18.323 ID inconsistentes 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+          <div class="comment indention"># Update Pet the name y status</div>
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def actualizar =  call read('classpath:features/actualizarPetNameStatus.feature') {id: 1510202538, newName: 'Thor', newStatus: 'sold', respuesta: crear}</span>
+
+  <span class="lead-duration duration">0.567</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name- passed">
+  <span class="keyword indention"></span>
+  <span class="name">features/actualizarPetNameStatus.feature</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">def updatePayload =</span>
+
+  <span class="lead-duration duration">0.004</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-7">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-7" class="collapse collapsable-details">
+        <pre>{
+  &quot;id&quot;: #(id),
+  &quot;name&quot;: &quot;#(newName)&quot;,
+  &quot;status&quot;: &quot;#(newStatus)&quot;
+}</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; Given passed">
+  <span class="keyword indention">&gt; Given</span>
+  <span class="name">url baseUrl + '/pet/'</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; And passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">header Content-Type = 'application/json'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; And passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">request updatePayload</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; When passed">
+  <span class="keyword indention">&gt; When</span>
+  <span class="name">method put</span>
+
+  <span class="lead-duration duration">0.475</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-8">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-8" class="collapse collapsable-details">
+        <pre>03:56:18.428 request:
+1 &gt; PUT https://petstore.swagger.io/v2/pet/
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 47
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.16)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;id&quot;:1510202538,&quot;name&quot;:&quot;Thor&quot;,&quot;status&quot;:&quot;sold&quot;}
+
+03:56:18.894 response time in milliseconds: 461
+1 &lt; 200
+1 &lt; Date: Wed, 15 Oct 2025 08:56:21 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 &lt; Server: Jetty(9.2.9.v20150224)
+{&quot;id&quot;:1510202538,&quot;name&quot;:&quot;Thor&quot;,&quot;photoUrls&quot;:[],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;}
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">eval</span>
+
+  <span class="lead-duration duration">0.014</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-9">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-9" class="collapse collapsable-details">
+        <pre>if (responseStatus == 200 ){
+  if (response.name == newName){
+    karate.log(&quot;Nuevo nombre de pet es: &quot;+response.name)
+  }else{
+    karate.log(&quot;Inconsistencia de nombre&quot;)
+  }
+  if (response.status == newStatus){
+    karate.log(&quot;Nuevo estado de pet es: &quot;+response.status)
+  }else{
+    karate.log(&quot;Inconsistencia de estado&quot;)
+  }
+  karate.log(&quot;Actualizaciones de nombre y estado EXITOSO&quot;)
+}else{
+  karate.log(&quot;Inestabilidad en el endpoint&quot;)
+}03:56:18.905 Nuevo nombre de pet es: Thor 
+03:56:18.905 Nuevo estado de pet es: sold 
+03:56:18.905 Actualizaciones de nombre y estado EXITOSO 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+          <div class="comment indention"># Read Pet by Status</div>
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">call read('classpath:features/buscarPetActualizadoStatus.feature') {id: 1510202538, newStatus: 'sold', respuesta: crear}</span>
+
+  <span class="lead-duration duration">0.623</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name- passed">
+  <span class="keyword indention"></span>
+  <span class="name">features/buscarPetActualizadoStatus.feature</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">header Content-Type = 'application/json'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; Given passed">
+  <span class="keyword indention">&gt; Given</span>
+  <span class="name">url baseUrl + '/pet/findByStatus'</span>
+
+  <span class="lead-duration duration">0.002</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; And passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">param status = newStatus</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; When passed">
+  <span class="keyword indention">&gt; When</span>
+  <span class="name">method get</span>
+
+  <span class="lead-duration duration">0.507</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-10">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-10" class="collapse collapsable-details">
+        <pre>03:56:18.962 request:
+1 &gt; GET https://petstore.swagger.io/v2/pet/findByStatus?status=sold
+1 &gt; Content-Type: application/json
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.16)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+03:56:19.465 response time in milliseconds: 503
+1 &lt; 200
+1 &lt; Date: Wed, 15 Oct 2025 08:56:22 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 &lt; Server: Jetty(9.2.9.v20150224)
+[{&quot;id&quot;:9223372036854739512,&quot;category&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;Dogs&quot;},&quot;name&quot;:&quot;UpdatedPet_1760513384319&quot;,&quot;photoUrls&quot;:[&quot;https://example.com/photo1.jpg&quot;,&quot;https://example.com/photo2.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;playful&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:13,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;cats&quot;},&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:1510202538,&quot;name&quot;:&quot;Thor&quot;,&quot;photoUrls&quot;:[],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:1510204576,&quot;name&quot;:&quot;Zeus&quot;,&quot;photoUrls&quot;:[],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17,&quot;category&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;Dogs&quot;},&quot;name&quot;:&quot;FormUpdateinvoiceDog&quot;,&quot;photoUrls&quot;:[&quot;http://example.com/updated_photo.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:10,&quot;name&quot;:&quot;friendly&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:1510208765,&quot;name&quot;:&quot;Thor&quot;,&quot;photoUrls&quot;:[],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:705439570,&quot;category&quot;:{&quot;id&quot;:18832573,&quot;name&quot;:&quot;something&quot;},&quot;name&quot;:&quot;Lopik&quot;,&quot;photoUrls&quot;:[&quot;https://dummyimage.com/428x166&quot;],&quot;tags&quot;:[{&quot;id&quot;:675611531,&quot;name&quot;:&quot;tend&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:458,&quot;name&quot;:&quot;Updated_u&quot;,&quot;photoUrls&quot;:[&quot;http://example.com/updated_photo.jpg&quot;],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:9223372036854740268,&quot;category&quot;:{&quot;id&quot;:100,&quot;name&quot;:&quot;dog&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:9223372036854740280,&quot;category&quot;:{&quot;id&quot;:100,&quot;name&quot;:&quot;dog&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:20,&quot;name&quot;:&quot;ckiku&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:9223372036854740371,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;cat&quot;},&quot;name&quot;:&quot;Markus&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;sold&quot;}]
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; And passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">print 'Conjuntojson', karate.filter(response, x =&gt; x.id == crear.id)</span>
+
+  <span class="lead-duration duration">0.010</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-11">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-11" class="collapse collapsable-details">
+        <pre>03:56:19.465 [print] Conjuntojson [
+  {
+    &quot;id&quot;: 1510202538,
+    &quot;name&quot;: &quot;Thor&quot;,
+    &quot;photoUrls&quot;: [
+    ],
+    &quot;tags&quot;: [
+    ],
+    &quot;status&quot;: &quot;sold&quot;
+  }
+]
+ 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">def busquedafiltrada = karate.filter(response, x =&gt; x.id == crear.id)</span>
+
+  <span class="lead-duration duration">0.007</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">eval</span>
+
+  <span class="lead-duration duration">0.051</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-12">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-12" class="collapse collapsable-details">
+        <pre>if (busquedafiltrada.length &gt; 0){
+  karate.match('result.response contains _', busquedafiltrada[0])
+}else{
+  var busqueda = karate.filter(response, x =&gt; x.status == crear.status);
+  if (busqueda.length &gt; 0 ){
+    karate.match('result.response contains _', busqueda[0])
+  }else{
+     karate.log('Existe elementos');
+  }
+}</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; And passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">print 'SEARCH FUNCTIONALITY VERIFIED SUCCESSFULLY'</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-13">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-13" class="collapse collapsable-details">
+        <pre>03:56:19.540 [print] SEARCH FUNCTIONALITY VERIFIED SUCCESSFULLY 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+
+<div class="element">
+    <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_772841443.html">features/principal.feature</a>
+    </div>
+
+
+<div class="tags indention">
+    <b>Tags:</b>
+       <a href="report-tag_643479533.html">@principal</a>
+</div>
+
+
+  <span class="lead-duration duration">3.975</span>
+
+
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-14">
+
+<div class="brief passed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">CRUD complete of pet</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-14" class="collapse collapsable-details ">
+
+
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-15">
+
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-15" class="inner-level collapse collapsable-details ">
+      <div class="step">
+          <div class="comment indention"># Create Pet</div>
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def crear = call read('classpath:features/crearPet.feature') { id: 1510204576, name: 'Rocky', status: 'pending' }</span>
+
+  <span class="lead-duration duration">0.532</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name- passed">
+  <span class="keyword indention"></span>
+  <span class="name">features/crearPet.feature</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">header Content-Type = 'application/json'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">def bodyS = read('classpath:datos/bodyAdd.json')</span>
+
+  <span class="lead-duration duration">0.002</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">set bodyS.id = id</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">set bodyS.name = name</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">set bodyS.status = status</span>
+
+  <span class="lead-duration duration">0.014</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; Given passed">
+  <span class="keyword indention">&gt; Given</span>
+  <span class="name">url baseUrl + '/pet'</span>
+
+  <span class="lead-duration duration">0.003</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; And passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">request bodyS</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; When passed">
+  <span class="keyword indention">&gt; When</span>
+  <span class="name">method post</span>
+
+  <span class="lead-duration duration">0.477</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-16">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-16" class="collapse collapsable-details">
+        <pre>03:56:19.695 request:
+1 &gt; POST https://petstore.swagger.io/v2/pet
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 144
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.16)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;id&quot;:1510204576,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;Rocky&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;pending&quot;}
+
+03:56:20.142 response time in milliseconds: 447
+1 &lt; 200
+1 &lt; Date: Wed, 15 Oct 2025 08:56:22 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 &lt; Server: Jetty(9.2.9.v20150224)
+{&quot;id&quot;:1510204576,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;Rocky&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;pending&quot;}
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">eval</span>
+
+  <span class="lead-duration duration">0.002</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-17">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-17" class="collapse collapsable-details">
+        <pre>if (responseStatus == 200) {
+  // Validaci&oacute;n
+  if (response.id == id) {
+    karate.log('ID correcto');
+  }else{
+    karate.log(&quot;ID incorrecto&quot;)
+  }
+  if (typeof response.status === 'string') {
+    karate.log('Status es String');
+  }else{
+    karate.log(&quot;Status no es String&quot;)
+  }
+  if (typeof response.id === 'number') {
+    karate.log('ID es n&uacute;merico');
+  }else{
+    karate.log(&quot;ID incorrecto&quot;)
+  }
+}else{
+  karate.log('API es inestable')
+}03:56:20.142 ID correcto 
+03:56:20.142 Status es String 
+03:56:20.142 ID es n&uacute;merico 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+          <div class="comment indention"># Read Pet by ID</div>
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">call read('classpath:features/buscarPetID.feature') { id: 1510204576, respuesta: crear}</span>
+
+  <span class="lead-duration duration">0.481</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name- passed">
+  <span class="keyword indention"></span>
+  <span class="name">features/buscarPetID.feature</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">header Content-Type = 'application/json'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; Given passed">
+  <span class="keyword indention">&gt; Given</span>
+  <span class="name">url baseUrl + '/pet/' + id</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; When passed">
+  <span class="keyword indention">&gt; When</span>
+  <span class="name">method get</span>
+
+  <span class="lead-duration duration">0.467</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-18">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-18" class="collapse collapsable-details">
+        <pre>03:56:20.157 request:
+1 &gt; GET https://petstore.swagger.io/v2/pet/1510204576
+1 &gt; Content-Type: application/json
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.16)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+03:56:20.620 response time in milliseconds: 463
+1 &lt; 200
+1 &lt; Date: Wed, 15 Oct 2025 08:56:23 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 &lt; Server: Jetty(9.2.9.v20150224)
+{&quot;id&quot;:1510204576,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;Rocky&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;pending&quot;}
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">eval</span>
+
+  <span class="lead-duration duration">0.002</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-19">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-19" class="collapse collapsable-details">
+        <pre>if(responseStatus == 200){
+  karate.log(&quot;Respuesta correcta&quot;)
+  if(response.id == respuesta.id){
+    karate.log(&quot;ID consistentes&quot;)
+  }else{
+    karate.log(&quot;ID inconsistentes&quot;)
+  }
+}else{
+  karate.log(&quot;Servidor tardo demasiado en responder&quot;)
+}03:56:20.620 Respuesta correcta 
+03:56:20.620 ID inconsistentes 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+          <div class="comment indention"># Update Pet the name y status</div>
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def actualizar =  call read('classpath:features/actualizarPetNameStatus.feature') {id: 1510204576, newName: 'Zeus', newStatus: 'sold', respuesta: crear}</span>
+
+  <span class="lead-duration duration">0.491</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name- passed">
+  <span class="keyword indention"></span>
+  <span class="name">features/actualizarPetNameStatus.feature</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">def updatePayload =</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-20">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-20" class="collapse collapsable-details">
+        <pre>{
+  &quot;id&quot;: #(id),
+  &quot;name&quot;: &quot;#(newName)&quot;,
+  &quot;status&quot;: &quot;#(newStatus)&quot;
+}</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; Given passed">
+  <span class="keyword indention">&gt; Given</span>
+  <span class="name">url baseUrl + '/pet/'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; And passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">header Content-Type = 'application/json'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; And passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">request updatePayload</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; When passed">
+  <span class="keyword indention">&gt; When</span>
+  <span class="name">method put</span>
+
+  <span class="lead-duration duration">0.461</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-21">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-21" class="collapse collapsable-details">
+        <pre>03:56:20.663 request:
+1 &gt; PUT https://petstore.swagger.io/v2/pet/
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 47
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.16)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;id&quot;:1510204576,&quot;name&quot;:&quot;Zeus&quot;,&quot;status&quot;:&quot;sold&quot;}
+
+03:56:21.113 response time in milliseconds: 444
+1 &lt; 200
+1 &lt; Date: Wed, 15 Oct 2025 08:56:23 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 &lt; Server: Jetty(9.2.9.v20150224)
+{&quot;id&quot;:1510204576,&quot;name&quot;:&quot;Zeus&quot;,&quot;photoUrls&quot;:[],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;}
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">eval</span>
+
+  <span class="lead-duration duration">0.006</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-22">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-22" class="collapse collapsable-details">
+        <pre>if (responseStatus == 200 ){
+  if (response.name == newName){
+    karate.log(&quot;Nuevo nombre de pet es: &quot;+response.name)
+  }else{
+    karate.log(&quot;Inconsistencia de nombre&quot;)
+  }
+  if (response.status == newStatus){
+    karate.log(&quot;Nuevo estado de pet es: &quot;+response.status)
+  }else{
+    karate.log(&quot;Inconsistencia de estado&quot;)
+  }
+  karate.log(&quot;Actualizaciones de nombre y estado EXITOSO&quot;)
+}else{
+  karate.log(&quot;Inestabilidad en el endpoint&quot;)
+}03:56:21.113 Nuevo nombre de pet es: Zeus 
+03:56:21.113 Nuevo estado de pet es: sold 
+03:56:21.128 Actualizaciones de nombre y estado EXITOSO 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+          <div class="comment indention"># Read Pet by Status</div>
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">call read('classpath:features/buscarPetActualizadoStatus.feature') {id: 1510204576, newStatus: 'sold', respuesta: crear}</span>
+
+  <span class="lead-duration duration">0.526</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name- passed">
+  <span class="keyword indention"></span>
+  <span class="name">features/buscarPetActualizadoStatus.feature</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">header Content-Type = 'application/json'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; Given passed">
+  <span class="keyword indention">&gt; Given</span>
+  <span class="name">url baseUrl + '/pet/findByStatus'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; And passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">param status = newStatus</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; When passed">
+  <span class="keyword indention">&gt; When</span>
+  <span class="name">method get</span>
+
+  <span class="lead-duration duration">0.488</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-23">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-23" class="collapse collapsable-details">
+        <pre>03:56:21.161 request:
+1 &gt; GET https://petstore.swagger.io/v2/pet/findByStatus?status=sold
+1 &gt; Content-Type: application/json
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.16)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+03:56:21.643 response time in milliseconds: 476
+1 &lt; 200
+1 &lt; Date: Wed, 15 Oct 2025 08:56:24 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 &lt; Server: Jetty(9.2.9.v20150224)
+[{&quot;id&quot;:9223372036854739512,&quot;category&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;Dogs&quot;},&quot;name&quot;:&quot;UpdatedPet_1760513384319&quot;,&quot;photoUrls&quot;:[&quot;https://example.com/photo1.jpg&quot;,&quot;https://example.com/photo2.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;friendly&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;playful&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:13,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;cats&quot;},&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:1510202538,&quot;name&quot;:&quot;Thor&quot;,&quot;photoUrls&quot;:[],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:1510204576,&quot;name&quot;:&quot;Zeus&quot;,&quot;photoUrls&quot;:[],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17,&quot;category&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;Dogs&quot;},&quot;name&quot;:&quot;FormUpdateinvoiceDog&quot;,&quot;photoUrls&quot;:[&quot;http://example.com/updated_photo.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:10,&quot;name&quot;:&quot;friendly&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:1510208765,&quot;name&quot;:&quot;Thor&quot;,&quot;photoUrls&quot;:[],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:705439570,&quot;category&quot;:{&quot;id&quot;:18832573,&quot;name&quot;:&quot;something&quot;},&quot;name&quot;:&quot;Lopik&quot;,&quot;photoUrls&quot;:[&quot;https://dummyimage.com/428x166&quot;],&quot;tags&quot;:[{&quot;id&quot;:675611531,&quot;name&quot;:&quot;tend&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:458,&quot;name&quot;:&quot;Updated_u&quot;,&quot;photoUrls&quot;:[&quot;http://example.com/updated_photo.jpg&quot;],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:9223372036854740268,&quot;category&quot;:{&quot;id&quot;:100,&quot;name&quot;:&quot;dog&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:9223372036854740280,&quot;category&quot;:{&quot;id&quot;:100,&quot;name&quot;:&quot;dog&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:20,&quot;name&quot;:&quot;ckiku&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:9223372036854740371,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;cat&quot;},&quot;name&quot;:&quot;Markus&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;sold&quot;}]
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; And passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">print 'Conjuntojson', karate.filter(response, x =&gt; x.id == crear.id)</span>
+
+  <span class="lead-duration duration">0.003</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-24">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-24" class="collapse collapsable-details">
+        <pre>03:56:21.643 [print] Conjuntojson [
+  {
+    &quot;id&quot;: 1510204576,
+    &quot;name&quot;: &quot;Zeus&quot;,
+    &quot;photoUrls&quot;: [
+    ],
+    &quot;tags&quot;: [
+    ],
+    &quot;status&quot;: &quot;sold&quot;
+  }
+]
+ 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">def busquedafiltrada = karate.filter(response, x =&gt; x.id == crear.id)</span>
+
+  <span class="lead-duration duration">0.002</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">eval</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-25">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-25" class="collapse collapsable-details">
+        <pre>if (busquedafiltrada.length &gt; 0){
+  karate.match('result.response contains _', busquedafiltrada[0])
+}else{
+  var busqueda = karate.filter(response, x =&gt; x.status == crear.status);
+  if (busqueda.length &gt; 0 ){
+    karate.match('result.response contains _', busqueda[0])
+  }else{
+     karate.log('Existe elementos');
+  }
+}</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; And passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">print 'SEARCH FUNCTIONALITY VERIFIED SUCCESSFULLY'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-26">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-26" class="collapse collapsable-details">
+        <pre>03:56:21.643 [print] SEARCH FUNCTIONALITY VERIFIED SUCCESSFULLY 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+
+<div class="element">
+    <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_772841443.html">features/principal.feature</a>
+    </div>
+
+
+<div class="tags indention">
+    <b>Tags:</b>
+       <a href="report-tag_643479533.html">@principal</a>
+</div>
+
+
+  <span class="lead-duration duration">4.014</span>
+
+
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-27">
+
+<div class="brief passed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">CRUD complete of pet</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-27" class="collapse collapsable-details ">
+
+
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-28">
+
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-28" class="inner-level collapse collapsable-details ">
+      <div class="step">
+          <div class="comment indention"># Create Pet</div>
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def crear = call read('classpath:features/crearPet.feature') { id: 1510208765, name: 'Bruno', status: 'stock' }</span>
+
+  <span class="lead-duration duration">0.522</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name- passed">
+  <span class="keyword indention"></span>
+  <span class="name">features/crearPet.feature</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">header Content-Type = 'application/json'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">def bodyS = read('classpath:datos/bodyAdd.json')</span>
+
+  <span class="lead-duration duration">0.002</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">set bodyS.id = id</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">set bodyS.name = name</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">set bodyS.status = status</span>
+
+  <span class="lead-duration duration">0.004</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; Given passed">
+  <span class="keyword indention">&gt; Given</span>
+  <span class="name">url baseUrl + '/pet'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; And passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">request bodyS</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; When passed">
+  <span class="keyword indention">&gt; When</span>
+  <span class="name">method post</span>
+
+  <span class="lead-duration duration">0.474</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-29">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-29" class="collapse collapsable-details">
+        <pre>03:56:21.720 request:
+1 &gt; POST https://petstore.swagger.io/v2/pet
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 142
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.16)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;id&quot;:1510208765,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;Bruno&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;stock&quot;}
+
+03:56:22.192 response time in milliseconds: 472
+1 &lt; 200
+1 &lt; Date: Wed, 15 Oct 2025 08:56:24 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 &lt; Server: Jetty(9.2.9.v20150224)
+{&quot;id&quot;:1510208765,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;Bruno&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;stock&quot;}
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">eval</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-30">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-30" class="collapse collapsable-details">
+        <pre>if (responseStatus == 200) {
+  // Validaci&oacute;n
+  if (response.id == id) {
+    karate.log('ID correcto');
+  }else{
+    karate.log(&quot;ID incorrecto&quot;)
+  }
+  if (typeof response.status === 'string') {
+    karate.log('Status es String');
+  }else{
+    karate.log(&quot;Status no es String&quot;)
+  }
+  if (typeof response.id === 'number') {
+    karate.log('ID es n&uacute;merico');
+  }else{
+    karate.log(&quot;ID incorrecto&quot;)
+  }
+}else{
+  karate.log('API es inestable')
+}03:56:22.197 ID correcto 
+03:56:22.197 Status es String 
+03:56:22.197 ID es n&uacute;merico 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+          <div class="comment indention"># Read Pet by ID</div>
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">call read('classpath:features/buscarPetID.feature') { id: 1510208765, respuesta: crear}</span>
+
+  <span class="lead-duration duration">0.503</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name- passed">
+  <span class="keyword indention"></span>
+  <span class="name">features/buscarPetID.feature</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">header Content-Type = 'application/json'</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; Given passed">
+  <span class="keyword indention">&gt; Given</span>
+  <span class="name">url baseUrl + '/pet/' + id</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; When passed">
+  <span class="keyword indention">&gt; When</span>
+  <span class="name">method get</span>
+
+  <span class="lead-duration duration">0.474</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-31">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-31" class="collapse collapsable-details">
+        <pre>03:56:22.210 request:
+1 &gt; GET https://petstore.swagger.io/v2/pet/1510208765
+1 &gt; Content-Type: application/json
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.16)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+03:56:22.678 response time in milliseconds: 468
+1 &lt; 200
+1 &lt; Date: Wed, 15 Oct 2025 08:56:25 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 &lt; Server: Jetty(9.2.9.v20150224)
+{&quot;id&quot;:1510208765,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;Bruno&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;stock&quot;}
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">eval</span>
+
+  <span class="lead-duration duration">0.004</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-32">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-32" class="collapse collapsable-details">
+        <pre>if(responseStatus == 200){
+  karate.log(&quot;Respuesta correcta&quot;)
+  if(response.id == respuesta.id){
+    karate.log(&quot;ID consistentes&quot;)
+  }else{
+    karate.log(&quot;ID inconsistentes&quot;)
+  }
+}else{
+  karate.log(&quot;Servidor tardo demasiado en responder&quot;)
+}03:56:22.694 Respuesta correcta 
+03:56:22.698 ID inconsistentes 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+          <div class="comment indention"># Update Pet the name y status</div>
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def actualizar =  call read('classpath:features/actualizarPetNameStatus.feature') {id: 1510208765, newName: 'Thor', newStatus: 'sold', respuesta: crear}</span>
+
+  <span class="lead-duration duration">0.554</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name- passed">
+  <span class="keyword indention"></span>
+  <span class="name">features/actualizarPetNameStatus.feature</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">def updatePayload =</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-33">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-33" class="collapse collapsable-details">
+        <pre>{
+  &quot;id&quot;: #(id),
+  &quot;name&quot;: &quot;#(newName)&quot;,
+  &quot;status&quot;: &quot;#(newStatus)&quot;
+}</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; Given passed">
+  <span class="keyword indention">&gt; Given</span>
+  <span class="name">url baseUrl + '/pet/'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; And passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">header Content-Type = 'application/json'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; And passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">request updatePayload</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; When passed">
+  <span class="keyword indention">&gt; When</span>
+  <span class="name">method put</span>
+
+  <span class="lead-duration duration">0.519</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-34">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-34" class="collapse collapsable-details">
+        <pre>03:56:22.738 request:
+1 &gt; PUT https://petstore.swagger.io/v2/pet/
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 47
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.16)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;id&quot;:1510208765,&quot;name&quot;:&quot;Thor&quot;,&quot;status&quot;:&quot;sold&quot;}
+
+03:56:23.246 response time in milliseconds: 508
+1 &lt; 200
+1 &lt; Date: Wed, 15 Oct 2025 08:56:25 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 &lt; Server: Jetty(9.2.9.v20150224)
+{&quot;id&quot;:1510208765,&quot;name&quot;:&quot;Thor&quot;,&quot;photoUrls&quot;:[],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;}
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">eval</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-35">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-35" class="collapse collapsable-details">
+        <pre>if (responseStatus == 200 ){
+  if (response.name == newName){
+    karate.log(&quot;Nuevo nombre de pet es: &quot;+response.name)
+  }else{
+    karate.log(&quot;Inconsistencia de nombre&quot;)
+  }
+  if (response.status == newStatus){
+    karate.log(&quot;Nuevo estado de pet es: &quot;+response.status)
+  }else{
+    karate.log(&quot;Inconsistencia de estado&quot;)
+  }
+  karate.log(&quot;Actualizaciones de nombre y estado EXITOSO&quot;)
+}else{
+  karate.log(&quot;Inestabilidad en el endpoint&quot;)
+}03:56:23.246 Nuevo nombre de pet es: Thor 
+03:56:23.246 Nuevo estado de pet es: sold 
+03:56:23.246 Actualizaciones de nombre y estado EXITOSO 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+          <div class="comment indention"># Read Pet by Status</div>
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">call read('classpath:features/buscarPetActualizadoStatus.feature') {id: 1510208765, newStatus: 'sold', respuesta: crear}</span>
+
+  <span class="lead-duration duration">0.479</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name- passed">
+  <span class="keyword indention"></span>
+  <span class="name">features/buscarPetActualizadoStatus.feature</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">header Content-Type = 'application/json'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; Given passed">
+  <span class="keyword indention">&gt; Given</span>
+  <span class="name">url baseUrl + '/pet/findByStatus'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; And passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">param status = newStatus</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; When passed">
+  <span class="keyword indention">&gt; When</span>
+  <span class="name">method get</span>
+
+  <span class="lead-duration duration">0.449</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-36">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-36" class="collapse collapsable-details">
+        <pre>03:56:23.262 request:
+1 &gt; GET https://petstore.swagger.io/v2/pet/findByStatus?status=sold
+1 &gt; Content-Type: application/json
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.16)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+03:56:23.712 response time in milliseconds: 447
+1 &lt; 200
+1 &lt; Date: Wed, 15 Oct 2025 08:56:26 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 &lt; Server: Jetty(9.2.9.v20150224)
+[{&quot;id&quot;:651639,&quot;category&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;cats&quot;},&quot;name&quot;:&quot;Chupa&quot;,&quot;photoUrls&quot;:[&quot;https://example.com/cat.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;cute&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:179271,&quot;category&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;cats&quot;},&quot;name&quot;:&quot;Chupa&quot;,&quot;photoUrls&quot;:[&quot;https://example.com/cat.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;cute&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:183498,&quot;category&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;cats&quot;},&quot;name&quot;:&quot;Chupa&quot;,&quot;photoUrls&quot;:[&quot;https://example.com/cat.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;cute&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:13,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;cats&quot;},&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:2656541,&quot;name&quot;:&quot;waf waf&quot;,&quot;photoUrls&quot;:[&quot;./dog.png&quot;],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:1510202538,&quot;name&quot;:&quot;Thor&quot;,&quot;photoUrls&quot;:[],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:1510204576,&quot;name&quot;:&quot;Zeus&quot;,&quot;photoUrls&quot;:[],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:1510208765,&quot;name&quot;:&quot;Thor&quot;,&quot;photoUrls&quot;:[],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:6266232023,&quot;category&quot;:{&quot;id&quot;:3,&quot;name&quot;:&quot;&#1044;&#1086;&#1084;&#1072;&#1096;&#1085;&#1077;&#1077; &#1078;&#1080;&#1074;&#1086;&#1090;&#1085;&#1086;&#1077;&quot;},&quot;name&quot;:&quot;&#1055;&#1091;&#1096;&#1086;&#1082;&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:7,&quot;name&quot;:&quot;&#1050;&#1088;&#1086;&#1083;&#1080;&#1082;&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:9,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;cats&quot;},&quot;name&quot;:&quot;King Kong&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:253011529,&quot;category&quot;:{&quot;id&quot;:1125999497,&quot;name&quot;:&quot;radio&quot;},&quot;name&quot;:&quot;Alfredicus&quot;,&quot;photoUrls&quot;:[&quot;https://placekitten.com/676/193&quot;],&quot;tags&quot;:[{&quot;id&quot;:249675065,&quot;name&quot;:&quot;director&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:9223372036854740366,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;cat&quot;},&quot;name&quot;:&quot;Markus&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:9223372036854740395,&quot;category&quot;:{&quot;id&quot;:100,&quot;name&quot;:&quot;dog&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:20,&quot;name&quot;:&quot;ckiku&quot;}],&quot;status&quot;:&quot;sold&quot;}]
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; And passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">print 'Conjuntojson', karate.filter(response, x =&gt; x.id == crear.id)</span>
+
+  <span class="lead-duration duration">0.006</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-37">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-37" class="collapse collapsable-details">
+        <pre>03:56:23.712 [print] Conjuntojson [
+  {
+    &quot;id&quot;: 1510208765,
+    &quot;name&quot;: &quot;Thor&quot;,
+    &quot;photoUrls&quot;: [
+    ],
+    &quot;tags&quot;: [
+    ],
+    &quot;status&quot;: &quot;sold&quot;
+  }
+]
+ 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">def busquedafiltrada = karate.filter(response, x =&gt; x.id == crear.id)</span>
+
+  <span class="lead-duration duration">0.006</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">eval</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-38">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-38" class="collapse collapsable-details">
+        <pre>if (busquedafiltrada.length &gt; 0){
+  karate.match('result.response contains _', busquedafiltrada[0])
+}else{
+  var busqueda = karate.filter(response, x =&gt; x.status == crear.status);
+  if (busqueda.length &gt; 0 ){
+    karate.match('result.response contains _', busqueda[0])
+  }else{
+     karate.log('Existe elementos');
+  }
+}</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; And passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">print 'SEARCH FUNCTIONALITY VERIFIED SUCCESSFULLY'</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-39">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-39" class="collapse collapsable-details">
+        <pre>03:56:23.730 [print] SEARCH FUNCTIONALITY VERIFIED SUCCESSFULLY 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-1 col-md-offset-10">
+      <i class="fa fa-chevron-circle-down fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('show')"></i>
+      <i class="fa fa-chevron-circle-up fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('hide')"></i>
+    </div>
+  </div>
+</div>
+
+<br/>
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>
